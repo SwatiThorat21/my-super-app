@@ -1,6 +1,6 @@
 import { useState } from "react";
-import {useNavigate} from "react-router-dom"
-import "./form.css"
+import { useNavigate } from "react-router-dom";
+import "./form.css";
 
 export default function FormData() {
   const [formData, setFormData] = useState({
@@ -63,7 +63,7 @@ export default function FormData() {
     setErrors(newErrors);
     Object.keys(newErrors).length === 0 &&
       localStorage.setItem("formdata", JSON.stringify(formData));
-      navigate("/Category")
+    Object.keys(newErrors).length === 0 && navigate("/Category");
   }
 
   return (
