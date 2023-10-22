@@ -1,5 +1,5 @@
-import bgImg from "../images/bgImg.png";
-import "../App.css"
+import bgImg from "../../images/bgImg.png";
+import "./banner.css"
 
 export default function Banner(){
     return(

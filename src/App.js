@@ -1,14 +1,15 @@
 import "./App.css";
-import Banner from "./components/Banner";
-import FormData from "./components/Form";
+import { Routes, Route } from "react-router-dom";
+import Registration from "./pages/Registration";
+import Genre from "./pages/Genre";
 
 function App() {
   return (
-    <>
-      <div className="signUp_container">
-        <Banner />
-        <FormData />
-      </div>
+    <>    
+        <Routes>
+          <Route path="/" element={<Registration />}></Route>
+          <Route path="/Category" element={<Genre />}></Route>
+        </Routes>    
     </>
   );
 }

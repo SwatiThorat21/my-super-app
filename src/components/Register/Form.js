@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "../App.css"
+import {useNavigate} from "react-router-dom"
+import "./form.css"
 
 export default function FormData() {
   const [formData, setFormData] = useState({
@@ -27,6 +28,8 @@ export default function FormData() {
       };
     });
   }
+
+  const navigate = useNavigate();
   function handleSubmit(e) {
     e.preventDefault();
     // console.log(formData);
@@ -60,6 +63,7 @@ export default function FormData() {
     setErrors(newErrors);
     Object.keys(newErrors).length === 0 &&
       localStorage.setItem("formdata", JSON.stringify(formData));
+      navigate("/Category")
   }
 
   return (
