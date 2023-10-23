@@ -62,7 +62,7 @@ export default function Category() {
   ];
 
   const [category, setCategory] = useState([]);
-
+  console.log(category);
   return (
     <>
       <div className="genre_container">
@@ -73,16 +73,17 @@ export default function Category() {
             <p>entertainment</p>
             <p>category</p>
           </div>
-          <SelectedGenre />
+          <SelectedGenre category={category} setCategory={setCategory} />
         </div>
         <div className="right_genre">
           <div className="card_container">
             {genreArr.map((data, index) => (
-              <Card 
-              data={data}
-              key={index}
-              category={category} 
-              setCategory={setCategory} />
+              <Card
+                data={data}
+                key={index}
+                category={category}
+                setCategory={setCategory}
+              />
             ))}
           </div>
           <button className="nextBtn">Next Page</button>
