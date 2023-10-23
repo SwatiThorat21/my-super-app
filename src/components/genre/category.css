@@ -2,21 +2,24 @@
   display: flex;
   background-color: black;
   color: #ffffff;
+  height: 100vh;
 }
 
 .left_genre {
   flex: 1;
-  padding: 4rem;
+  padding: 4rem 5rem;
 }
 .right_genre {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding: 3rem 6rem;
 }
-.card_wrapper{
+.card_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
 }
 .title {
   font-family: "Single Day", cursive;
@@ -26,6 +29,7 @@
 }
 .heading_wrapper p {
   font-size: 45px;
+  font-family: "Roboto", sans-serif;
 }
 .SelectedGenre_container{
     display: flex;
@@ -46,10 +50,24 @@
     width: 12px;
 }
 .nextBtn{
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     background-color: #148A08;
     border-radius: 30px;
     border: none;
     outline: none;
     color: #ffffff;
+    margin-top: 30px;
+}
+.cardImg{
+  width: 120px;
+  margin-top: 20px;
+}
+.card_wrapper p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+}
+.card_wrapper{
+  background-color: #FF5209;
+  padding: 0.4rem;
+  border-radius: 12px;
 }
