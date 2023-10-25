@@ -1,12 +1,12 @@
 import "./category.css";
 import closeIcon from "../../images/closeIcon.png";
 
-export default function SelectedGenre({ category, setCategory }) {
+export default function SelectedGenre({ categories, setCategories }) {
   return (
     <>
       <div className="SelectedGenre_container">
-        {category.map((item) => (
-          <div className="genreBtn">
+        {categories.map((item) => (
+        <div className="genreBtn">
             {item.name}
             <img src={closeIcon} alt="closeIcon" className="closeIcon"></img>
           </div>

@@ -61,8 +61,7 @@ export default function Category() {
     },
   ];
 
-  const [category, setCategory] = useState([]);
-  console.log(category);
+  const [categories, setCategories] = useState([]);
   return (
     <>
       <div className="genre_container">
@@ -73,7 +72,7 @@ export default function Category() {
             <p>entertainment</p>
             <p>category</p>
           </div>
-          <SelectedGenre category={category} setCategory={setCategory} />
+          <SelectedGenre categories={categories} setCategories={setCategories} />
         </div>
         <div className="right_genre">
           <div className="card_container">
@@ -81,8 +80,8 @@ export default function Category() {
               <Card
                 data={data}
                 key={index}
-                category={category}
-                setCategory={setCategory}
+                categories={categories}
+                setCategories={setCategories}
               />
             ))}
           </div>
