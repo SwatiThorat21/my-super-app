@@ -62,6 +62,7 @@ export default function Category() {
   ];
 
   const [categories, setCategories] = useState([]);
+
   return (
     <>
       <div className="genre_container">
