@@ -1,5 +1,6 @@
 import SelectedGenre from "./SelectedGenre";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Card from "./Card";
 import "./category.css";
 import actionImg from "../../images/action.png";
@@ -11,6 +12,7 @@ import musicImg from "../../images/music.png";
 import thrillerImg from "../../images/thriller.png";
 import romanceImg from "../../images/romance.png";
 import westernImg from "../../images/western.png";
+import dangerImg from "../../images/danger.png";
 
 export default function Category() {
   let genreArr = [
@@ -60,8 +62,19 @@ export default function Category() {
       bgImg: fictionImg,
     },
   ];
-
+  const navigate = useNavigate()
   const [categories, setCategories] = useState([]);
+  const [error, setError] = useState(false);
+
+  function handleSubmit() {
+    if (categories.length < 3) {
+      setError(true);
+    } else{
+      setError(false);
+      localStorage.setItem("genre", JSON.stringify([...categories]));
+      navigate('/Browse')
+    }
+  }
 
   return (
     <>
@@ -73,7 +86,19 @@ export default function Category() {
             <p>entertainment</p>
             <p>category</p>
           </div>
-          <SelectedGenre categories={categories} setCategories={setCategories} />
+          <SelectedGenre
+            categories={categories}
+            setCategories={setCategories}
+          />
+          {categories.length < 3 &&
+            (error ? (
+              <p className="error">
+                <img src={dangerImg} alt="dangerImg" className="dangerImg" />
+                Please select minimum 3 categories !!
+              </p>
+            ) : (
+              ""
+            ))}
         </div>
         <div className="right_genre">
           <div className="card_container">
@@ -86,7 +111,9 @@ export default function Category() {
               />
             ))}
           </div>
-          <button className="nextBtn">Next Page</button>
+          <button className="nextBtn" onClick={handleSubmit}>
+            Next Page
+          </button>
         </div>
       </div>
     </>
