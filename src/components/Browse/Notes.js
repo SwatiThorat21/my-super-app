@@ -3,7 +3,7 @@ export default function showNotes() {
     <>
       <div className="notes_container">
         <h1>All notes</h1>
-        <textarea name="notes" />
+        <textarea name="notes" className="notes_here"/>
       </div>
     </>
   );

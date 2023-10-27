@@ -17,7 +17,7 @@ export default function Weather() {
             <p>Heavy Rain</p>
           </div>
           <div className="temp_press">
-            <h2>24 C</h2>
+            <h2>24°C</h2>
             <div className="press_wrapper">
               <img src={tempImg} alt="tempImg" />
               <div>
