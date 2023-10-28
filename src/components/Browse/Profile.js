@@ -14,7 +14,7 @@ export default function showProfile() {
           <h2>{userInfo.userName}</h2>
           <div
             className={`selectedGenre_wrapper ${
-              genre.length > 4 ? "selectedGenre_scroll" : ""
+              genre.length > 4 ? "display_scroll" : ""
             }`}
           >
             {genre.map((item) => {

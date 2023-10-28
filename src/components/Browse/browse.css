@@ -48,7 +48,7 @@
 }
 .notes_container h1 {
   font-size: 23px;
-  font-weight: lighter;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 .weather_container {
@@ -77,7 +77,7 @@
   width: 220px;
   height: 62px;
 }
-.selectedGenre_scroll{
+.display_scroll {
   overflow-y: scroll;
 }
 .genre_browse_btn {
@@ -218,7 +218,7 @@
 }
 .browseBtn {
   float: right;
-  background-color: #148A08;
+  background-color: #148a08;
   padding: 0.3rem 2rem;
   border: none;
   outline: none;
@@ -238,8 +238,8 @@
   background-color: #f1c75b;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  overflow-y: scroll;
   padding-right: 40px;
+  overflow-y: auto;
 }
 .news_container {
   background-color: #000000;
@@ -286,7 +286,6 @@
   padding: 1rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-
 }
 /* width */
 ::-webkit-scrollbar {
@@ -305,4 +304,21 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #8b8989;
+}
+.notes_here::-webkit-scrollbar {
+  width: 6px;
+}
+/* Track */
+.notes_here::-webkit-scrollbar-track {
+  background: #c6c1c1;
+  border-radius: 4px;
+}
+/* Handle */
+.notes_here::-webkit-scrollbar-thumb {
+  background: #f4d587;
+  border-radius: 4px;
+}
+/* Handle on hover */
+.notes_here::-webkit-scrollbar-thumb:hover {
+  background: #ffe6a6;
 }
