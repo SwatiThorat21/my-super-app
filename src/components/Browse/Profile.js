@@ -1,23 +1,29 @@
 import profileImg from "../../images/profileImg.png";
-import "./browse.css"
+import "./browse.css";
 
 export default function showProfile() {
+  let userInfo = JSON.parse(localStorage.getItem("formdata"));
+  let genre = JSON.parse(localStorage.getItem("genre"));
   return (
     <>
       <div className="profile_container">
-        <img src={profileImg} alt="profile img" className="profileIMg"/>
+        <img src={profileImg} alt="profile img" className="profileIMg" />
         <div className="profile_details_wrapper">
-          <p>KK Vinay</p>
-          <p>Vinay090@gmail.com</p>
-          <h2>vinay060</h2>
-          <div className="selectedGenre_wrapper">
-            <div className="genre_browse_btn">Home</div>
-            <div className="genre_browse_btn">Home</div>
-            <div className="genre_browse_btn">Home</div>
-            <div className="genre_browse_btn">Home</div>
-            <div className="genre_browse_btn">Home</div>
-            <div className="genre_browse_btn">Home</div>
-
+          <p>{userInfo.name}</p>
+          <p>{userInfo.email}</p>
+          <h2>{userInfo.userName}</h2>
+          <div
+            className={`selectedGenre_wrapper ${
+              genre.length > 4 ? "selectedGenre_scroll" : ""
+            }`}
+          >
+            {genre.map((item) => {
+              return (
+                <div className="genre_browse_btn" key={item.name}>
+                  {item.name}
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

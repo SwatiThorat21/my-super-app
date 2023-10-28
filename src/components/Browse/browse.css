@@ -74,16 +74,20 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
-  width: 210px;
+  width: 220px;
   height: 62px;
+}
+.selectedGenre_scroll{
   overflow-y: scroll;
 }
 .genre_browse_btn {
   padding: 0.3rem 1.5rem;
   background-color: #9f94ff;
   border-radius: 18px;
-  font-size: 12px;
+  font-size: 13px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
   font-weight: 400;
 }
 .timerImg {
