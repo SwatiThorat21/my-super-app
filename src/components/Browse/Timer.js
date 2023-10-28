@@ -15,9 +15,9 @@ export default function ShowTimer() {
               <p>Seconds</p>
             </div>
             <div className="increment_wrapper">
-              <img src={incrementImg} alt="incrementImg" />
-              <img src={incrementImg} alt="incrementImg" />
-              <img src={incrementImg} alt="incrementImg" />
+              <img src={incrementImg} alt="incrementImg" style={{cursor:"pointer"}}/>
+              <img src={incrementImg} alt="incrementImg" style={{cursor:"pointer"}}/>
+              <img src={incrementImg} alt="incrementImg" style={{cursor:"pointer"}}/>
             </div>
             <div className="time_wrapper">
               <p>05</p>
@@ -27,9 +27,9 @@ export default function ShowTimer() {
               <p>00</p>
             </div>
             <div className="decrement_wrapper">
-              <img src={decrementImg} alt="incrementImg" />
-              <img src={decrementImg} alt="incrementImg" />
-              <img src={decrementImg} alt="incrementImg" />
+              <img src={decrementImg} alt="incrementImg" style={{cursor:"pointer"}} />
+              <img src={decrementImg} alt="incrementImg" style={{cursor:"pointer"}}/>
+              <img src={decrementImg} alt="incrementImg" style={{cursor:"pointer"}}/>
             </div>
             <button className="startTimer_btn">Start</button>
           </div>

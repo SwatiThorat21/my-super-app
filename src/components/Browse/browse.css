@@ -210,15 +210,20 @@
   font-size: 14px;
   font-weight: lighter;
   letter-spacing: 0.7px;
+  cursor: pointer;
 }
 .browseBtn {
   float: right;
   background-color: #148A08;
-  padding: 0.3rem 1.1rem;
+  padding: 0.3rem 2rem;
   border: none;
   outline: none;
   border-radius: 11px;
   color: #ffffff;
+  margin-right: 2rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.6px;
+  cursor: pointer;
 }
 .notes_here {
   resize: none;
@@ -230,6 +235,7 @@
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   overflow-y: scroll;
+  padding-right: 40px;
 }
 .news_container {
   background-color: #000000;
@@ -253,7 +259,7 @@
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   width: 100%;
-  top: 14.4rem;
+  top: 12.6rem;
 }
 .news_heading h2 {
   font-family: "Roboto", sans-serif;
