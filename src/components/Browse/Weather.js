@@ -40,7 +40,7 @@ export default function Weather() {
     hours = hours % 12;
     hours = hours ? hours : "12";
     let minutes = date.getMinutes();
-    minutes = minutes<10 ? '0' + minutes : minutes;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
 
     const timeFormat = hours + ":" + minutes + " " + ampm;
     setTime(timeFormat);

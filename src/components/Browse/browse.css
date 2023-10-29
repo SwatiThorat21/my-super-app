@@ -251,6 +251,7 @@
 .newsImg {
   width: 100%;
   height: 160%;
+  border-radius: 20px;
 }
 .date_time_news_wrapper {
   display: flex;
@@ -264,11 +265,13 @@
   position: absolute;
   width: 100%;
   top: 12.6rem;
+  height: 22vh;
 }
 .news_heading h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 .news_date {
   padding-right: 5px;

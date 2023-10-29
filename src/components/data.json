@@ -1,41 +1,1006 @@
 {
-  "location": {
-    "name": "Mumbai",
-    "region": "Maharashtra",
-    "country": "India",
-    "lat": 18.98,
-    "lon": 72.83,
-    "tz_id": "Asia/Kolkata",
-    "localtime_epoch": 1698496976,
-    "localtime": "2023-10-28 18:12"
-  },
-  "current": {
-    "last_updated_epoch": 1698496200,
-    "last_updated": "2023-10-28 18:00",
-    "temp_c": 33.0,
-    "temp_f": 91.4,
-    "is_day": 0,
-    "condition": {
-      "text": "Overcast",
-      "icon": "//cdn.weatherapi.com/weather/64x64/night/122.png",
-      "code": 1009
+  "status": "ok",
+  "totalResults": 6341,
+  "articles": [
+    {
+      "source": { "id": "the-times-of-india", "name": "The Times of India" },
+      "author": "New York Times",
+      "title": "The consequences of Elon Musk's ownership of X",
+      "description": "The war between Israel and Hamas -- the sort of major news event that once made Twitter an essential source of information and debate -- has drowned all social media platforms in false and misleading information, but for Musk's platform in particular the war …",
+      "url": "https://economictimes.indiatimes.com/tech/technology/the-consequences-of-elon-musks-ownership-of-x/articleshow/104773632.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-104773645,width-1200,height-630,imgsize-104138,overlay-ettech/photo.jpg",
+      "publishedAt": "2023-10-28T06:28:36Z",
+      "content": "Now rebranded as X, the site formerly known as Twitter has experienced a surge in racist, antisemitic and other hateful speech. Under Elon Musk's watch, millions of people have been exposed to misinf… [+10382 chars]"
     },
-    "wind_mph": 8.1,
-    "wind_kph": 13.0,
-    "wind_degree": 300,
-    "wind_dir": "WNW",
-    "pressure_mb": 1010.0,
-    "pressure_in": 29.83,
-    "precip_mm": 0.0,
-    "precip_in": 0.0,
-    "humidity": 36,
-    "cloud": 0,
-    "feelslike_c": 39.0,
-    "feelslike_f": 102.2,
-    "vis_km": 3.0,
-    "vis_miles": 1.0,
-    "uv": 1.0,
-    "gust_mph": 22.3,
-    "gust_kph": 36.0
-  }
+    {
+      "source": { "id": null, "name": "InfoQ.com" },
+      "author": "Renato Losio",
+      "title": "Tesla Introduces Official Developer APIs for Third-Party Integration",
+      "description": "Tesla has recently unveiled its first API documentation to support the integration of third-party applications. While primarily designed for fleet management, these APIs have captured the interest of developers, who see it as a potential starting point for th…",
+      "url": "https://www.infoq.com/news/2023/10/tesla-developer-apis/",
+      "urlToImage": "https://res.infoq.com/news/2023/10/tesla-developer-apis/en/headerimage/generatedHeaderImage-1698263762109.jpg",
+      "publishedAt": "2023-10-28T05:34:00Z",
+      "content": "Tesla has recently unveiled its first API documentation to support the integration of third-party applications. While primarily designed for fleet management, these APIs have captured the interest of… [+3337 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "benzinga.com",
+      "title": "Former Lawyer Says He 'Felt Absolutely Nothing' During Face-Off With Trump At New York Fraud Trial",
+      "description": "Former attorney Michael Cohen expressed complete emotional detachment when he faced former President Donald Trump in a New York civil fraud trial. What Happened: Cohen, in a CNN interview, revealed that he “felt absolutely nothing” during his face-to-face enc…",
+      "url": "https://biztoc.com/x/937f3eab38baea11",
+      "urlToImage": "https://c.biztoc.com/p/937f3eab38baea11/s.webp",
+      "publishedAt": "2023-10-28T04:30:08Z",
+      "content": "Former attorney Michael Cohen expressed complete emotional detachment when he faced former President Donald Trump in a New York civil fraud trial.What Happened: Cohen, in a CNN interview, revealed th… [+302 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "benzinga.com",
+      "title": "Investment Chief Proposes Adding Warren Buffett's Berkshire Hathaway To 'Magnificent Seven'",
+      "description": "The ‘Magnificent Seven,’ a group comprising seven mega-cap growth stocks, should be expanded to include Warren Buffett’s Berkshire Hathaway Inc. BRK BRK, according to the investment chief of a wealth consulting group. What Happened: The current ‘Magnificent S…",
+      "url": "https://biztoc.com/x/03f244550b408570",
+      "urlToImage": "https://c.biztoc.com/p/03f244550b408570/s.webp",
+      "publishedAt": "2023-10-28T04:30:08Z",
+      "content": "The Magnificent Seven, a group comprising seven mega-cap growth stocks, should be expanded to include Warren Buffetts Berkshire Hathaway Inc. BRK BRK, according to the investment chief of a wealth co… [+325 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Jameson Dow",
+      "title": "Tesla opens shareholder lottery for Cybertruck delivery event tickets",
+      "description": "Tesla is holding a lottery for tickets to its upcoming Cybertruck delivery event on November 30th at its Texas Gigafactory in Austin.\n more…\nThe post Tesla opens shareholder lottery for Cybertruck delivery event tickets appeared first on Electrek.",
+      "url": "https://electrek.co/2023/10/27/tesla-opens-shareholder-lottery-for-cybertruck-delivery-event-tickets/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2023/10/Cybertruck_Hero__Desktop_RSVP.jpg.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-28T04:30:00Z",
+      "content": "Tesla is holding a lottery for tickets to its upcoming Cybertruck delivery event on November 30th at its Texas Gigafactory in Austin.\r\nThe Cybertruck is nearing release, and we’ve been seeing more an… [+2034 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Freerepublic.com" },
+      "author": "Daily wire",
+      "title": "Cost Of Driving Electric Vehicle Equal To Paying $17.33 Per Gallon Of Gasoline, Study Finds",
+      "description": "A comprehensive new study of electric vehicles shows that the cost of running them is far more expensive than has been commonly thought. Brent Bennett and Jason Isaac issued their report for the Texas Public Policy Foundation, pointing out that advocates for …",
+      "url": "https://freerepublic.com/focus/f-news/4192827/posts",
+      "urlToImage": null,
+      "publishedAt": "2023-10-28T04:18:54Z",
+      "content": "Skip to comments.\r\nCost Of Driving Electric Vehicle Equal To Paying $17.33 Per Gallon Of Gasoline, Study FindsDaily wire ^\r\n | By Hank Berrien\r\nPosted on 10/27/2023 9:18:54 PM PDT by NoLibZone\r\nA com… [+3583 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Boston Globe" },
+      "author": "The Associated Press",
+      "title": "Today in History: October 28, Benito Mussolini takes power in Italy",
+      "description": "Today is Saturday, Oct. 28, the 301st day of 2023. There are 64 days left in the year.",
+      "url": "https://www.bostonglobe.com/2023/10/28/metro/today-history-october-28-benito-mussolini-takes-power-italy/",
+      "urlToImage": "https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=437",
+      "publishedAt": "2023-10-28T04:10:00Z",
+      "content": "In 1636, the General Court of Massachusetts passed a legislative act establishing Harvard College.\r\nIn 1726, the original edition of Gullivers Travels, a satirical novel by Jonathan Swift, was first … [+2352 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "morningbrew.com",
+      "title": "Automakers are walking back their EV growth plans",
+      "description": "Some of the biggest car companies in the world are hitting Ctrl-Z on their electric vehicle ambitions as consumer demand lags behind what the industry expected. Ford announced yesterday that it’s postponing $12 billion in spending on EV manufacturing expansio…",
+      "url": "https://biztoc.com/x/147f8fafc6f2e86e",
+      "urlToImage": "https://c.biztoc.com/p/147f8fafc6f2e86e/s.webp",
+      "publishedAt": "2023-10-28T04:06:12Z",
+      "content": "Some of the biggest car companies in the world are hitting Ctrl-Z on their electric vehicle ambitions as consumer demand lags behind what the industry expected.Ford announced yesterday that its postp… [+271 chars]"
+    },
+    {
+      "source": { "id": null, "name": "blogTO" },
+      "author": "Misha Gajewski",
+      "title": "There's a funky attic space hidden inside this $4 million Toronto home",
+      "description": "Square rooms are so passé — triangle-shaped rooms are where it's at. \r\nOr, at least, they are in 72 Ellis Park Rd. \r\nThis impressive home overlooking High Park offers style, luxury, and the coolest attic ever.\r\nThe front entrance and living room. \r\nListed for…",
+      "url": "https://www.blogto.com/real-estate-toronto/2023/10/72-ellis-park-road-toronto/",
+      "urlToImage": "https://media.blogto.com/articles/20231026-72ellispark.jpeg?w=1200&cmd=resize_then_crop&height=630&quality=70",
+      "publishedAt": "2023-10-28T04:01:00Z",
+      "content": "Square rooms are so passé triangle-shaped rooms are where it's at. \r\nOr, at least, they are in 72 Ellis Park Rd. \r\nThis impressive home overlooking High Park offers style, luxury, and the coolest att… [+2484 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CleanTechnica" },
+      "author": "Guest Contributor",
+      "title": "Tesla’s Giga Berlin Expansion Set To Kick Off In Early 2024 Amid Controversy",
+      "description": "Tesla has revealed its aspirations to commence its Giga Berlin expansion project in the first half of 2024. This announcement comes against the backdrop of ongoing public debates surrounding the project’s scope and impact. The expansion initiative aims to mod…",
+      "url": "https://cleantechnica.com/2023/10/27/teslas-giga-berlin-expansion-set-to-kick-off-in-early-2024-amid-controversy/",
+      "urlToImage": "http://cleantechnica.com/files/2021/08/GigaBerlin-Desktop-V4_e60c8302-c331-40ff-b5cd-3e518b9e5251-1.jpg",
+      "publishedAt": "2023-10-28T03:57:11Z",
+      "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nTesla has revealed its aspirations to commence its Giga Berlin expansion project in the first half of 2024. T… [+2643 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "benzinga.com",
+      "title": "Tesla To Pick Select Shareholders For Cybertruck Delivery Event Via Lottery: Details Inside",
+      "description": "Electric vehicle giant Tesla Inc TSLA has launched a Cybertruck Delivery Event shareholder lottery to determine which shareholders will be attending the much-awaited event to be held at Gigafactory Texas on Nov. 30. What Happened: Only a limited number of sha…",
+      "url": "https://biztoc.com/x/8bc175a75f3500d8",
+      "urlToImage": "https://c.biztoc.com/p/8bc175a75f3500d8/s.webp",
+      "publishedAt": "2023-10-28T03:20:06Z",
+      "content": "Electric vehicle giant Tesla Inc TSLA has launched a Cybertruck Delivery Event shareholder lottery to determine which shareholders will be attending the much-awaited event to be held at Gigafactory T… [+284 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Freerepublic.com" },
+      "author": "The Street",
+      "title": "Former Ford CEO has a blunt warning for the electric vehicle industry (The US auto industry, is in total denial)",
+      "description": "Ford's EV business posted a big loss for the third quarter.. The strike against Ford may be over, but the company's electric vehicle woes are far from solved. The entire auto industry, grappling with steadily softening EV demand over cost and existential infr…",
+      "url": "https://freerepublic.com/focus/f-news/4192814/posts",
+      "urlToImage": null,
+      "publishedAt": "2023-10-28T02:40:18Z",
+      "content": "Skip to comments.\r\nFormer Ford CEO has a blunt warning for the electric vehicle industry (The US auto industry, is in total denial)The Street ^\r\n | 9 hours ago\r\n | Ian Krietzberg\r\nPosted on 10/27/202… [+2386 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "benzinga.com",
+      "title": "Threat For Tinder, Bumble? Tesla CEO Elon Musk Reportedly Reveals Plan To Turn X Into Dating App, Digital Bank By 2024",
+      "description": "Tesla CEO Elon Musk reportedly unveiled surprising plans for his platform X during a company-wide meeting. What Happened: Challenging the realms of Tinder and Bumble BMBL, Musk said he intends to transform X into a full fledged dating site and a digital bank …",
+      "url": "https://biztoc.com/x/8f2a39a0219ef25d",
+      "urlToImage": "https://c.biztoc.com/p/8f2a39a0219ef25d/s.webp",
+      "publishedAt": "2023-10-28T02:38:08Z",
+      "content": "Tesla CEO Elon Musk reportedly unveiled surprising plans for his platform X during a company-wide meeting.What Happened: Challenging the realms of Tinder and Bumble BMBL, Musk said he intends to tran… [+294 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Punch" },
+      "author": "Branded Content",
+      "title": "Dogecoin (DOGE) Sets Sights on Double-Digit Growth; InQubeta (QUBE) Sets Market Ablaze",
+      "description": "The cryptocurrency market has had a stellar few months where both old and new altcoins trumped analysts’ expectations with their prices. Among the top winners, InQubeta (QUBE)and Dogecoin were the ones that grabbed the most attention. While InQubeta set the c…",
+      "url": "https://punchng.com/dogecoin-doge-sets-sights-on-double-digit-growth-inqubeta-qube-sets-market-ablaze/",
+      "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2023/10/28072223/cat.jpg",
+      "publishedAt": "2023-10-28T02:19:31Z",
+      "content": "The cryptocurrency market has had a stellar few months where both old and new altcoins trumped analysts’ expectations with their prices. Among the top winners, InQubeta (QUBE)and Dogecoin were the on… [+4525 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "zerohedge.com",
+      "title": "The Graphite Grip: How China's Crackdown On Exports Threatens Global EV Battery Supply Chain",
+      "description": "The Graphite Grip: How China's Crackdown On Exports Threatens Global EV Battery Supply Chain China's retaliatory restriction on graphite exports will have a disproportionate impact on foreign makers of electric vehicle battery components which haven't shifted…",
+      "url": "https://biztoc.com/x/3873eb48b797a9d2",
+      "urlToImage": "https://c.biztoc.com/p/3873eb48b797a9d2/s.webp",
+      "publishedAt": "2023-10-28T01:56:06Z",
+      "content": "The Graphite Grip: How China's Crackdown On Exports Threatens Global EV Battery Supply Chain\r\nChina's retaliatory restriction on graphite exports will have a disproportionate impact on foreign makers… [+315 chars]"
+    },
+    {
+      "source": { "id": "fox-news", "name": "Fox News" },
+      "author": "Alexander Hall",
+      "title": "South Park lauded for mocking Disney's 'woke gender and race-swapping' reboots: 'A national treasure'",
+      "description": "Clips from \"South Park: Joining the Panderverse\" went viral across social media Friday for mocking Disney for changing their characters and making them woke.",
+      "url": "https://www.foxnews.com/media/south-park-lauded-mocking-disneys-woke-gender-race-swapping-reboots-national-treasure",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/10/South-Park.png",
+      "publishedAt": "2023-10-28T01:47:50Z",
+      "content": "Clips from a TV special of the show \"South Park\" went viral online Friday for mocking Disney CEO Bob Iger, Lucasfilm president Kathleen Kennedy and the Disney Company's widely criticized pandering to… [+3273 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Variety" },
+      "author": "Adam B. Vary",
+      "title": "‘Loki’ Head Writer Eric Martin on That Cliffhanger and His Secret Rule for Season 2",
+      "description": "SPOILER ALERT: This story involves discussion of major plot developments in Season 2, Episode 4 of “Loki,” currently streaming on Disney+. When Eric Martin started writing the Season 1 finale of “Loki” (along with then-head writer Michael Waldron), he already…",
+      "url": "https://variety.com/2023/tv/news/loki-cliffhanger-ending-eric-martin-1235771252/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2023/10/Screen-Shot-2023-10-27-at-5.16.36-PM.png?w=1000&h=563&crop=1",
+      "publishedAt": "2023-10-28T01:32:05Z",
+      "content": "SPOILER ALERT: This story involves discussion of major plot developments in Season 2, Episode 4 of “Loki,” currently streaming on Disney+.\r\nWhen Eric Martin started writing the Season 1 finale of “Lo… [+9192 chars]"
+    },
+    {
+      "source": { "id": "cbc-news", "name": "CBC News" },
+      "author": null,
+      "title": "1 person hospitalized after vehicle crashes into hotdog store in Richmond",
+      "description": "A vehicle crashed into a hotdog store at a busy intersection in the Metro Vancouver municipality of Richmond Friday morning. One person was sent to hospital in critical condition.",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/hot-dog-store-car-crash-richmond-1.7011457",
+      "urlToImage": "https://i.cbc.ca/1.7011468.1698453896!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/hot-dog-store-crash.jpg",
+      "publishedAt": "2023-10-28T01:03:36Z",
+      "content": "A car crashed into a hotdog store Friday morning at a busy intersection in Richmond, B.C., sending one person to hospital in critical condition.\r\nPhotos and videos on social media show a grey Tesla e… [+601 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Chicago Tribune" },
+      "author": "Robert Channick",
+      "title": "EVBox launches fast-charger production in Libertyville, as part of national push for widespread EV adoption",
+      "description": "Netherlands-based EVBox, which opened its North American headquarters and plant in Libertyville, is rolling out a new public fast-charger it hopes will help get the U.S. on the road to widespread EV adoption.",
+      "url": "https://www.chicagotribune.com/business/ct-biz-ev-fast-charger-production-evbox-20231028-h2kn2djz4rfnlmxk4sp4q2nxja-story.html",
+      "urlToImage": "https://www.chicagotribune.com/resizer/wxshg1RoSj_aUREWhbk5adU5J4M=/1200x630/filters:format(jpg):quality(70):focal(3553x1486:3563x1496)/cloudfront-us-east-1.images.arcpublishing.com/tronc/7EBXVQULNFCF5EYPPQGC3XWS6I.JPG",
+      "publishedAt": "2023-10-28T00:58:36Z",
+      "content": "Netherlands-based EVBox, which opened its North American headquarters and plant in Libertyville, is rolling out a new public fast-charger it hopes will help get the U.S. on the road to widespread ado… [+7769 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Bangkok Post" },
+      "author": "Ambiyah Abdullah & Auliya Febriyanti",
+      "title": "New plan could benefit Asean's EVs",
+      "description": "The need for clean energy technology deployment towards global net-zero emissions is becoming more critical. To meet the net-zero emission target in 2030 and reduce global energy consumption to 7% less than the level in 2020, a massive deployment of clean ene…",
+      "url": "https://www.bangkokpost.com/opinion/opinion/2673343/new-plan-could-benefit-aseans-evs",
+      "urlToImage": "https://static.bangkokpost.com/media/content/dcx/2023/10/28/4939658_700.jpg",
+      "publishedAt": "2023-10-28T00:49:00Z",
+      "content": "The need for clean energy technology deployment towards global net-zero emissions is becoming more critical. To meet the net-zero emission target in 2030 and reduce global energy consumption to 7% le… [+6171 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "investing.com",
+      "title": "Ford shares fall after pulling full-year forecast, wider losses in EV unit",
+      "description": "Shares of Ford Motor (NYSE: ) Co closed down 12.3% on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry leader Tesla (NASDAQ: ). The Detroit automaker also pulled i…",
+      "url": "https://biztoc.com/x/23a3e6f1113c4a5f",
+      "urlToImage": "https://c.biztoc.com/p/23a3e6f1113c4a5f/s.webp",
+      "publishedAt": "2023-10-28T00:28:05Z",
+      "content": "Shares of Ford Motor (NYSE: ) Co closed down 12.3% on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry … [+291 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNA" },
+      "author": null,
+      "title": "Ford shares fall after pulling full-year forecast, wider losses in EV unit",
+      "description": ":Shares of Ford Motor Co closed down 12.3 per cent on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry leader Tesla.The Detroit automaker also pulled its 2023 fore…",
+      "url": "https://www.channelnewsasia.com/business/ford-shares-fall-after-pulling-full-year-forecast-wider-losses-ev-unit-3879211",
+      "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--IlSmpLWC--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2023-10-27t235901z_2_lynxmpej9q0ja_rtroptp_3_ford-motor-results.jpg?itok=5KcCnPN0",
+      "publishedAt": "2023-10-27T23:59:01Z",
+      "content": ":Shares of Ford Motor Co closed down 12.3 per cent on Friday, after the automaker reported a wider loss from its electric-vehicle (EV) business due to pressures from a price war, sparked by industry … [+1758 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Global News" },
+      "author": "Sean Previl",
+      "title": "X struggles with usage decline and misinformation 1 year after Musk takeover - National | Globalnews.ca",
+      "description": "X looks and feels something like Twitter, but the more time you spend on it the clearer it becomes that it's merely an approximation.",
+      "url": "https://globalnews.ca/news/10055217/twitter-takeover-one-year-later/",
+      "urlToImage": "https://globalnews.ca/wp-content/uploads/2023/10/twitter-x-one-year-later.jpg?quality=85&strip=all&w=720&h=379&crop=1",
+      "publishedAt": "2023-10-27T23:41:26Z",
+      "content": "One year ago, billionaire and new owner Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming… [+5564 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Power Line" },
+      "author": "John Hinderaker",
+      "title": "Green Dreams Going Up In Smoke",
+      "description": "Wind and solar are both terrible methods of generating electricity, both expensive and unreliable. The one thing that can make the situation worse is the drive to electrify everything, including motor vehicles. The impracticality of this “green” vision has be…",
+      "url": "http://www.powerlineblog.com/archives/2023/10/green-dreams-going-up-in-smoke.php",
+      "urlToImage": "https://www.powerlineblog.com/ed-assets/2023/10/Screen-Shot-2018-04-21-at-9.05.15-AM.png",
+      "publishedAt": "2023-10-27T23:18:58Z",
+      "content": "Wind and solar are both terrible methods of generating electricity, both expensive and unreliable. The one thing that can make the situation worse is the drive to electrify everything, including moto… [+4150 chars]"
+    },
+    {
+      "source": { "id": null, "name": "New Zealand Herald" },
+      "author": "Anne Gibson",
+      "title": "Dark, moody, indigenous: What it’s like inside Fisher & Paykel Appliances’ luxury Auckland Experience Centre",
+      "description": "'This is a physical manifestation of our brand.' - Mark Elmore",
+      "url": "https://www.nzherald.co.nz/business/dark-moody-indigenous-what-its-like-inside-fisher-paykel-appliances-luxury-auckland-experience-centre/E4U3J7BO7FF3TDDCHK3EFPBB6E/",
+      "urlToImage": "https://www.nzherald.co.nz/resizer/y4lSAm17pJSH6rhsP1IdJeETfu4=/1200x675/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/2RLXA4KVPRDFNH4SPH27U2O7C4.jpg",
+      "publishedAt": "2023-10-27T23:00:00Z",
+      "content": "Fisher &amp; Paykel Appliances' Michael Elmore inside the new Auckland Experience Centre. Photo / Michael CraigA muehlenbeckia chandelier hangs above one kitchen showroom, a harakeke installation is … [+8127 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "finance.yahoo.com",
+      "title": "Tesla, EV Investors Face a Reckoning",
+      "description": "The electric-vehicle boom that spawned multibillion dollar startups overnight and pushed Tesla Inc.’s value into the stratosphere is starting to flounder just a few years after it began. • None Israel Latest: Iranian Minister Warns US Over Support of Israel •…",
+      "url": "https://biztoc.com/x/f85d3264555e21d3",
+      "urlToImage": "https://c.biztoc.com/p/f85d3264555e21d3/og.webp",
+      "publishedAt": "2023-10-27T22:30:10Z",
+      "content": "The electric-vehicle boom that spawned multibillion dollar startups overnight and pushed Tesla Inc.s value into the stratosphere is starting to flounder just a few years after it began.None Israel La… [+306 chars]"
+    },
+    {
+      "source": { "id": "breitbart-news", "name": "Breitbart News" },
+      "author": "John Binder, John Binder",
+      "title": "Joe Biden's Green Energy Flop: Automakers Realize Americans Are Not Buying Electric Vehicles",
+      "description": "American automakers are quickly learning that Americans are not buying electric vehicles (EVs) at the rates they expected.",
+      "url": "https://www.breitbart.com/economy/2023/10/27/joe-bidens-green-energy-flop-automakers-realize-americans-are-not-buying-electric-vehicles/",
+      "urlToImage": "https://media.breitbart.com/media/2023/10/GettyImages-1236627157-640x335.jpg",
+      "publishedAt": "2023-10-27T22:28:20Z",
+      "content": "After investing billions into a green energy agenda mimicking President Joe Biden’s federal rules, American automakers are quickly learning that Americans are not buying electric vehicles (EVs) at th… [+5334 chars]"
+    },
+    {
+      "source": { "id": "espn", "name": "ESPN" },
+      "author": null,
+      "title": "Trial date for Memphis' Williams set for Dec. 14",
+      "description": "A request to raise star Memphis basketball recruit Mikey Williams' bail was denied Friday by a judge who set a trial start date of Dec. 14 for Williams, who faces 9 total charges stemming from a March 27 shooting incident.",
+      "url": "https://www.espn.com/mens-college-basketball/story/_/id/38758259/request-raise-mikey-williams-bail-denied-trial-set-dec-14",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1107%2Fr1087850_1296x729_16%2D9.jpg",
+      "publishedAt": "2023-10-27T22:22:01Z",
+      "content": "Oct 27, 2023, 06:09 PM ET\r\nEL CAJON, Calif. -- A San Diego County Superior Court judge on Friday rejected a request to raise star Memphis basketball recruit Mikey Williams' bail for what the prosecut… [+3668 chars]"
+    },
+    {
+      "source": { "id": null, "name": "KPBS" },
+      "author": "Wyatte Grantham-Philips",
+      "title": "Cruise, GM's robo-taxi service, suspends all driverless operations nationwide",
+      "description": "U.S. regulators have been investigating Cruise’s operations after receiving incident reports that suggested risks to pedestrian and passenger safety.",
+      "url": "https://www.kpbs.org/news/public-safety/2023/10/27/cruise-gms-robo-taxi-service-suspends-all-driverless-operations-nationwide",
+      "urlToImage": "https://cdn.kpbs.org/dims4/default/9018452/2147483647/strip/true/crop/3556x1867+0+252/resize/1200x630!/quality/90/?url=http%3A%2F%2Fkpbs-brightspot.s3.us-west-2.amazonaws.com%2F88%2F1e%2Fb66648ca483f92d6105726ebd390%2Fgmcruise.jpeg",
+      "publishedAt": "2023-10-27T22:06:36Z",
+      "content": "Cruise, the autonomous vehicle unit owned by General Motors, is suspending driverless operations nationwide days after regulators in California found that its driverless cars posed a danger to public… [+5397 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Investing.com" },
+      "author": "Reuters",
+      "title": "Frazzled U.S. stock investors eye frothy Treasury market as Fed looms",
+      "description": "Frazzled U.S. stock investors eye frothy Treasury market as Fed looms",
+      "url": "https://www.investing.com/news/economy/frazzled-us-stock-investors-eye-frothy-treasury-market-as-fed-looms-3212543",
+      "urlToImage": "https://i-invdn-com.investing.com/news/indicatornews_5_800x533_L_1412601619.jpg",
+      "publishedAt": "2023-10-27T22:00:43Z",
+      "content": "By David Randall\r\nNEW YORK (Reuters) - Financial markets are bracing for what could be a momentous week, with a Federal Reserve meeting, U.S. employment data and earnings from technology heavyweight … [+3877 chars]"
+    },
+    {
+      "source": { "id": "abc-news", "name": "ABC News" },
+      "author": "BARBARA ORTUTAY AP technology writer",
+      "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
+      "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X",
+      "url": "https://abcnews.go.com/US/wireStory/twitter-takeover-1-year-struggles-misinformation-advertising-usage-104415702",
+      "urlToImage": "https://i.abcnewsfe.com/a/abc52358-6a40-4abe-8592-6b9d2a5b9c49/wirestory_ac2cb6419d93d64086cc9ad980c5a57a_16x9.jpg?w=992",
+      "publishedAt": "2023-10-27T21:58:29Z",
+      "content": "SAN FRANCISCO -- One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and b… [+5412 chars]"
+    },
+    {
+      "source": { "id": null, "name": "MarketWatch" },
+      "author": "MarketWatch Automation",
+      "title": "Company Close Updates: Workhorse Group Inc. stock falls Friday, underperforms market",
+      "description": "Shares of Workhorse Group Inc. slid 2.91% to $0.39 Friday, on what proved to be an all-around mixed trading session for the stock market, with the NASDAQ...",
+      "url": "https://www.marketwatch.com/data-news/workhorse-group-inc-stock-falls-friday-underperforms-market-076fbc60-19c53723bbb1",
+      "urlToImage": "https://images.mktw.net/im-220105/social",
+      "publishedAt": "2023-10-27T21:40:51Z",
+      "content": "Shares of Workhorse Group Inc. \r\n WKHS,\r\n -2.91%\r\nslid 2.91% to $0.39 Friday, on what proved to be an all-around mixed trading session for the stock market, with the NASDAQ Composite Index \r\n COMP,\r\n… [+765 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Slashdot.org" },
+      "author": "feedfeeder",
+      "title": "Ford, GM, and even Tesla are warning about the EV market - Yahoo Finance",
+      "description": "Ford, GM, and even Tesla are warning about the EV marketYahoo Finance How the UAW and Ford struck a historic dealCNN I give Ford a B- overall on their strike deal with UAW, says MAEVA Group's Harry WilsonCNBC Television Editorial: Costly contract a risk for F…",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=172121319",
+      "urlToImage": null,
+      "publishedAt": "2023-10-27T21:36:05Z",
+      "content": "\"Don't try to outweird me, three-eyes. I get stranger things than you free\r\nwith my breakfast cereal.\"\r\n- Zaphod Beeblebrox in \"Hithiker's Guide to the Galaxy\""
+    },
+    {
+      "source": { "id": "abc-news", "name": "ABC News" },
+      "author": "BARBARA ORTUTAY AP technology writer",
+      "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
+      "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X",
+      "url": "https://abcnews.go.com/Technology/wireStory/twitter-takeover-1-year-struggles-misinformation-advertising-usage-104438313",
+      "urlToImage": "https://i.abcnewsfe.com/a/abc52358-6a40-4abe-8592-6b9d2a5b9c49/wirestory_ac2cb6419d93d64086cc9ad980c5a57a_16x9.jpg?w=992",
+      "publishedAt": "2023-10-27T21:34:46Z",
+      "content": "SAN FRANCISCO -- One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and b… [+5412 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Marketscreener.com" },
+      "author": null,
+      "title": "Business Lookahead: Central bank trick or treat",
+      "description": "(marketscreener.com) STORY: From a slew of central bank meetings to Apple's earnings, these are the stories to watch in business and finance. https://www.marketscreener.com/quote/stock/APPLE-INC-4849/news/Business-Lookahead-Central-bank-trick-or-treat-4517763…",
+      "url": "https://www.marketscreener.com/quote/stock/APPLE-INC-4849/news/Business-Lookahead-Central-bank-trick-or-treat-45177638/",
+      "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+      "publishedAt": "2023-10-27T21:18:04Z",
+      "content": "STORY: From a slew of central bank meetings to Apple's earnings, these are the stories to watch in business and finance. \r\n The Bank of Japan makes a policy announcement on Tuesday.\r\nThe benchmark 10… [+1356 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Jameson Dow",
+      "title": "Tesla Service goes on strike in Sweden; dockworkers refuse to unload cars",
+      "description": "Tesla Service workers have gone on strike across Sweden due to Tesla’s refusal to sign a collective bargaining agreement. In response, Swedish dockworkers have stated that they will refuse to unload Tesla vehicles in Swedish ports unless the conflict is resol…",
+      "url": "https://electrek.co/2023/10/27/tesla-service-goes-on-strike-in-sweden-dockworkers-refuse-to-unload-cars/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2019/06/Tesla-Service-hero.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-27T21:16:45Z",
+      "content": "Tesla Service workers have gone on strike across Sweden due to Teslas refusal to sign a collective bargaining agreement. In response, Swedish dockworkers have stated that they will refuse to unload T… [+5209 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Slashdot.org" },
+      "author": "feedfeeder",
+      "title": "Ford, GM, and even Tesla are warning about EV market - Yahoo Finance",
+      "description": "Ford, GM, and even Tesla are warning about EV marketYahoo Finance How the UAW and Ford struck a historic dealCNN Ford, GM, Mercedes come clean on EV demand weaknessFox Business Editorial: Costly contract a risk for Ford, othersDetroit News There's a lot of he…",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=172121197",
+      "urlToImage": null,
+      "publishedAt": "2023-10-27T21:13:53Z",
+      "content": "\"Don't try to outweird me, three-eyes. I get stranger things than you free\r\nwith my breakfast cereal.\"\r\n- Zaphod Beeblebrox in \"Hithiker's Guide to the Galaxy\""
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "finance.yahoo.com",
+      "title": "Ford, GM, and even Tesla are warning about the EV market",
+      "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest-ever …",
+      "url": "https://biztoc.com/x/ee10fef56d2a60d5",
+      "urlToImage": "https://c.biztoc.com/p/ee10fef56d2a60d5/og.webp",
+      "publishedAt": "2023-10-27T21:06:10Z",
+      "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+290 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "finance.yahoo.com",
+      "title": "Ford, GM, and even Tesla are warning about the EV market",
+      "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest-ever …",
+      "url": "https://biztoc.com/x/ee10fef56d2a60d5",
+      "urlToImage": "https://c.biztoc.com/p/ee10fef56d2a60d5/og.webp",
+      "publishedAt": "2023-10-27T21:06:10Z",
+      "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+290 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Gizmodo.com" },
+      "author": "Nikki Main",
+      "title": "Tesla's String of Mass Recalls Over the Last 12 Months",
+      "description": "Tesla and recalls are no strangers as it seems to have one every few weeks or months due to various system glitches and malfunctions. From loose seat belts to power steering, to traction battery recalls, Tesla is no novice when it comes to fixing errors stemm…",
+      "url": "https://gizmodo.com/tesla-elon-musk-string-mass-recalls-over-last-12-months-1850957985",
+      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/6827a0d1a763831eb6c592246ce2780d.jpg",
+      "publishedAt": "2023-10-27T21:00:00Z",
+      "content": "Tesla and recalls are no strangers as it seems to have one every few weeks or months due to various system glitches and malfunctions. From loose seat belts to power steering, to traction battery reca… [+1053 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Newser" },
+      "author": "Bob Cronin",
+      "title": "Stocks Fall, Pushing S&P Into Correction",
+      "description": "Stocks closed lower Friday on Wall Street, pulling the S&P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a \"correction,\" the AP reports: The S&P fell 19.86 points, or 0.5%, to 4,117.37. The Dow fell 366....",
+      "url": "https://www.newser.com/story/341969/stocks-fall-pushing-sp-into-correction.html",
+      "urlToImage": "https://img1-azrcdn.newser.com/image/1499454-12-20231027160000.jpeg",
+      "publishedAt": "2023-10-27T21:00:00Z",
+      "content": "Stocks closed lower Friday on Wall Street, pulling the S&amp;P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a \"correction,\" the AP reports:\r\n<ul><li… [+901 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CleanTechnica" },
+      "author": "Steve Hanley",
+      "title": "BP Places $100 Million Order For Tesla’s Ultra-Fast EV Chargers",
+      "description": "bp pulse has ordered $100 million worth of Tesla Superchargers to expand its US EV charging network starting in 2024.",
+      "url": "https://cleantechnica.com/2023/10/27/bp-places-100-million-order-for-teslas-ultra-fast-ev-chargers/",
+      "urlToImage": "http://cleantechnica.com/files/2023/10/Tesla-BP-Pulse-Charger.jpg",
+      "publishedAt": "2023-10-27T20:57:07Z",
+      "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nEveryone is bitching about the horrible state of EV charging. Either the damn things are broken or they requi… [+7180 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Marketscreener.com" },
+      "author": null,
+      "title": "Wall St Week Ahead-Frazzled U.S. stock investors eye frothy Treasury market as Fed looms",
+      "description": "(marketscreener.com) \n \n NEW YORK, Oct 27 -\n Financial markets are bracing for what could be a momentous\nweek, with a Federal Reserve meeting, U.S. employment data and\nearnings from technology heavyweight Apple Inc possibly\nsetting the course for stocks and b…",
+      "url": "https://www.marketscreener.com/quote/currency/AUSTRALIAN-DOLLAR-US-DOLL-2373531/news/Wall-St-Week-Ahead-Frazzled-U-S-stock-investors-eye-frothy-Treasury-market-as-Fed-looms-45177072/",
+      "urlToImage": "https://img.zonebourse.com/reuters/2017-02/2017-02-23T005601Z_1006950001_LYNXMPED1M02Y_RTROPTP_2_CBUSINESS-US-GLOBAL-FOREX.JPG",
+      "publishedAt": "2023-10-27T20:55:30Z",
+      "content": "NEW YORK, Oct 27 (Reuters) -\r\nFinancial markets are bracing for what could be a momentous\r\nweek, with a Federal Reserve meeting, U.S. employment data and\r\nearnings from technology heavyweight Apple I… [+3942 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Minneapolis Star Tribune" },
+      "author": "STAN CHOE and DAMIAN J. TROISE",
+      "title": "Stock market today: Wall Street falls, bringing the S&P 500 index 10% below its July peak",
+      "description": "Stocks stumbled on Wall Street Friday, bringing the S&P 500 10% below the peak it reached in July and putting the benchmark index into what's called a ''correction.''",
+      "url": "https://www.startribune.com/stock-market-today-wall-street-falls-bringing-the-s-p-500-index-10-below-its-july-peak/600315178/",
+      "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1696606793",
+      "publishedAt": "2023-10-27T20:55:07Z",
+      "content": "NEW YORK Stocks stumbled on Wall Street Friday, bringing the S&amp;P 500 10% below the peak it reached in July and putting the benchmark index into what's called a ''correction.''\r\nThe S&amp;P 500 fe… [+5421 chars]"
+    },
+    {
+      "source": { "id": null, "name": "MarketWatch" },
+      "author": "MarketWatch Automation",
+      "title": "Company Close Updates: Ford Motor Co. stock falls Friday, underperforms market",
+      "description": "Shares of Ford Motor Co. plunged 12.25% to $9.96 Friday, on what proved to be an all-around grim trading session for the stock market, with the S&P 500 Index...",
+      "url": "https://www.marketwatch.com/data-news/ford-motor-co-stock-falls-friday-underperforms-market-fd8774de-459f155243bf",
+      "urlToImage": "https://images.mktw.net/im-220105/social",
+      "publishedAt": "2023-10-27T20:51:28Z",
+      "content": "Shares of Ford Motor Co. \r\n F,\r\n -12.25%\r\nplunged 12.25% to $9.96 Friday, on what proved to be an all-around grim trading session for the stock market, with the S&amp;P 500 Index \r\n SPX,\r\n -0.48%\r\nfa… [+642 chars]"
+    },
+    {
+      "source": { "id": null, "name": "[Removed]" },
+      "author": null,
+      "title": "[Removed]",
+      "description": "[Removed]",
+      "url": "https://removed.com",
+      "urlToImage": null,
+      "publishedAt": "1970-01-01T00:00:00Z",
+      "content": "[Removed]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "entrepreneur.com",
+      "title": "Ford Is Putting Off Its $12 Billion Electric Vehicle Investment",
+      "description": "Ford announced on Thursday that it delaying a $12 billion investment in electric vehicle (EV) manufacturing facilities, including halting the construction of a second battery plant in Kentucky, per CNBC. Ford said in a media briefing on Thursday that growth i…",
+      "url": "https://biztoc.com/x/6695cd1e8aabc310",
+      "urlToImage": "https://c.biztoc.com/p/6695cd1e8aabc310/s.webp",
+      "publishedAt": "2023-10-27T20:36:08Z",
+      "content": "Ford announced on Thursday that it delaying a $12 billion investment in electric vehicle (EV) manufacturing facilities, including halting the construction of a second battery plant in Kentucky, per C… [+286 chars]"
+    },
+    {
+      "source": { "id": null, "name": "New York Post" },
+      "author": "Ariel Zilber",
+      "title": "Elon Musk gives X employees a year to turn app into finance platform: ‘You won’t need a bank account’",
+      "description": "“When I say payments, I actually mean someone’s entire financial life,” Musk told his charges at an all-hands meeting on Thursday.",
+      "url": "https://nypost.com/2023/10/27/business/elon-musk-gives-x-employees-a-year-to-turn-app-into-finance-platform/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/10/newspress-collage-970ve4fgn-1698434995412.jpg?quality=75&strip=all&1698420655&w=1024",
+      "publishedAt": "2023-10-27T20:35:39Z",
+      "content": "Elon Musk has given his employees at social media platform X a year to roll out a payments processing mechanism that will enable people to do away with their bank accounts.\r\nWhen I say payments, I ac… [+3788 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Chicago Tribune" },
+      "author": "Barbara Ortutay",
+      "title": "Musk’s Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
+      "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X.",
+      "url": "https://www.chicagotribune.com/business/ct-aud-biz-twitter-musk-year-later-20231027-jn777ueiznbm5aug3j237mqiim-story.html",
+      "urlToImage": "https://www.chicagotribune.com/resizer/VSOZs9tMI9t1UF1MNzw_CbDkgYc=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/FQ247Y3WI2LRTA64OKGW5HQ6S4.jpg",
+      "publishedAt": "2023-10-27T20:30:10Z",
+      "content": "SAN FRANCISCO One year ago, billionaire and new owner Elon Musk walked into Twitters San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began… [+5343 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Minneapolis Star Tribune" },
+      "author": "STAN CHOE and DAMIAN J. TROISE",
+      "title": "Stock market today: Wall Street falls, pulling S&P 500 down 10% from its July peak",
+      "description": "Stocks closed lower on Wall Street, pulling the S&P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a 'correction.' The declines came amid the latest batch of earnings from big technology and energy companies an…",
+      "url": "https://www.startribune.com/stock-market-today-wall-street-falls-pulling-s-p-500-down-10-from-its-july-peak/600315178/",
+      "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1696606793",
+      "publishedAt": "2023-10-27T20:20:01Z",
+      "content": "NEW YORK Stocks closed lower on Wall Street, pulling the S&amp;P 500 down 10% from the peak it reached in July. That puts the benchmark index into what's called a 'correction.' The declines came amid… [+5879 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "finance.yahoo.com",
+      "title": "Ford, GM, and even Tesla are warning about the EV market",
+      "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest ever …",
+      "url": "https://biztoc.com/x/cc3e57d879d3aa9f",
+      "urlToImage": "https://c.biztoc.com/p/cc3e57d879d3aa9f/s.webp",
+      "publishedAt": "2023-10-27T20:12:06Z",
+      "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+290 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Thefly.com" },
+      "author": null,
+      "title": "What You Missed On Wall Street On Friday",
+      "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor…",
+      "url": "https://thefly.com/permalinks/entry.php/id3802452/AMZN;F;INTC;CVX;XOM;TSLA;GOOG;GOOGL;GM;BZFD;DIS;NRDS;EGO;DXCM;JNPR;PTCT;GTLS;SWK;ENPH;CMG;COF;ABBV-What-You-Missed-On-Wall-Street-On-Friday",
+      "urlToImage": "https://image.thefly.com/catalog/201810/img_66.png",
+      "publishedAt": "2023-10-27T20:09:21Z",
+      "content": "Get caught up quickly on the top news and calls moving stocks with these five Top Five lists. \r\n1. STOCK NEWS: \r\n<ul><li>Amazon (AMZN) reported upbeat Q3 results and continued stabilization of Web Se… [+3079 chars]"
+    },
+    {
+      "source": { "id": null, "name": "ETF Daily News" },
+      "author": "MarketBeat News",
+      "title": "Quaker Wealth Management LLC Invests $201,000 in Tesla, Inc. (NASDAQ:TSLA)",
+      "description": "Quaker Wealth Management LLC purchased a new position in Tesla, Inc. (NASDAQ:TSLA – Free Report) in the second quarter, according to its most recent Form 13F filing with the Securities & Exchange Commission. The fund purchased 768 shares of the electric vehic…",
+      "url": "https://www.etfdailynews.com/2023/10/27/quaker-wealth-management-llc-invests-201000-in-tesla-inc-nasdaqtsla/",
+      "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-inc-logo.png?v=20221020135629&w=240&h=240&zc=2",
+      "publishedAt": "2023-10-27T20:06:43Z",
+      "content": "Quaker Wealth Management LLC purchased a new position in Tesla, Inc. (NASDAQ:TSLA – Free Report) in the second quarter, according to its most recent Form 13F filing with the Securities &amp; Exchange… [+6307 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "aol.com",
+      "title": "Ford, GM, and even Tesla are warning about the EV market",
+      "description": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a year ago, with EV market share hitting 7.9% — its highest ever …",
+      "url": "https://biztoc.com/x/9e860ddfdd03523f",
+      "urlToImage": "https://c.biztoc.com/p/9e860ddfdd03523f/s.webp",
+      "publishedAt": "2023-10-27T20:06:08Z",
+      "content": "At least in the US, electric vehicle sales have hit a tipping point. Research firm Kelley Blue Book (KBB) finds that US EV sales in the third quarter crossed 313,000, nearly a 50% increase from a yea… [+278 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Michelle Lewis",
+      "title": "Here’s how much money you’ll get with the Inflation Reduction Act",
+      "description": "The Inflation Reduction Act (IRA) is a “free electric bank account with your name on it.” It’s packed with rebates and tax credits that will help Americans purchase everything from EVs to solar and electrical appliances to heat pumps. Check out this easy-to-u…",
+      "url": "https://electrek.co/2023/10/27/inflation-reduction-act-calculator/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/07/Volkswagen-ID.4-Production.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-27T19:58:39Z",
+      "content": "The Inflation Reduction Act (IRA) is a free electric bank account with your name on it. Its packed with rebates and tax credits that will help Americans purchase everything from EVs to solar and elec… [+6600 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Fred Lambert",
+      "title": "Podcast: Tesla starts selling Superchargers, EV concept galore in Japan, and more",
+      "description": "On the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we discuss Tesla starting to sell Superchargers, EV concept galore in Japan, and more.\nToday’s episode is sponsored by Isinwhee…",
+      "url": "https://electrek.co/2023/10/27/podcast-tesla-selling-superchargers-ev-concept-galore-japan/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2017/12/business_card-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-27T19:57:28Z",
+      "content": "On the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this weeks episode, we discuss Tesla starting to sell Superchargers, EV concept galore i… [+926 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Lawyersgunsmoneyblog.com" },
+      "author": "Scott Lemieux",
+      "title": "Speaking of our Silicon Valley supergeniuses",
+      "description": "It’s long been obvious that Elon Musk cared more about making Twitter more right-wing than making money, But given how much he paid the sheer unsustainability of this model is getting pretty staggering: One year after billionaire Elon Musk bought Twitter for …",
+      "url": "https://www.lawyersgunsmoneyblog.com/2023/10/speaking-of-our-silicon-valley-supergeniuses",
+      "urlToImage": "https://www.lawyersgunsmoneyblog.com/wp-content/uploads/2023/10/Screenshot-2023-10-27-at-12.43.42-PM-1024x579.png",
+      "publishedAt": "2023-10-27T19:47:04Z",
+      "content": "One year after billionaire Elon Musk bought Twitter for $44 billion, aiming to rid it of a woke mind virus that he believed was suppressing free speech, the sites business outlook appears dire.\r\nThe … [+2798 chars]"
+    },
+    {
+      "source": { "id": null, "name": "MarketWatch" },
+      "author": "Joseph Adinolfi",
+      "title": "Market Extra: ‘Magnificent Seven’ stocks have shed more than $1.2 trillion in value since the market’s July peak",
+      "description": "The so-called \"Magnificent Seven\" megacap technology stocks that have powered practically all of this year's rally in the S&P 500 have seen more than $1.2 trillion in value evaporate since stocks peaked at the end of July.",
+      "url": "https://www.marketwatch.com/story/magnificent-seven-stocks-have-shed-more-than-1-2-trillion-in-value-since-the-markets-july-peak-bdec1e78",
+      "urlToImage": "https://images.mktw.net/im-713498/social",
+      "publishedAt": "2023-10-27T19:40:56Z",
+      "content": "The so-called Magnificent Seven megacap technology stocks that have powered practically all of this years rally in the S&amp;P 500 have seen more than $1.2 trillion in value evaporate since stocks pe… [+1958 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "notateslaapp.com",
+      "title": "Tesla Sells Superchargers to BP for $100 Million - What This Means For Tesla Owners",
+      "description": "Tesla Sells Superchargers to BP for $100 Million - What This Means For Tesla Owners Tesla has taken a groundbreaking step in its mission to expand its reach and impact. In an unprecedented $100 million deal with bp pulse, Tesla's ultra-fast charging units wil…",
+      "url": "https://biztoc.com/x/f16cae690f12f4d2",
+      "urlToImage": "https://c.biztoc.com/p/f16cae690f12f4d2/og.webp",
+      "publishedAt": "2023-10-27T19:40:15Z",
+      "content": "Tesla Sells Superchargers to BP for $100 Million - What This Means For Tesla OwnersTesla has taken a groundbreaking step in its mission to expand its reach and impact. In an unprecedented $100 millio… [+279 chars]"
+    },
+    {
+      "source": { "id": null, "name": "PCMag.com" },
+      "author": "Emily Dreibelbis",
+      "title": "How Long do EV Batteries Last? New Research Suggests It's Way Longer Than You Might Think",
+      "description": "An independent analysis of 15,000 EV batteries finds that most don't need to be replaced until they're well over a decade old.\nFor many EV-curious buyers, the fear of spending thousands on a battery replacement at some point could understandably keep them fro…",
+      "url": "https://uk.pcmag.com/cars-auto/149363/how-long-do-ev-batteries-last-new-research-suggests-its-way-longer-than-you-might-think",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/news/h/how-long-d/how-long-do-ev-batteries-last-new-research-suggests-its-way_zj5d.1200.jpg",
+      "publishedAt": "2023-10-27T19:36:25Z",
+      "content": "For many EV-curious buyers, the fear of spending thousands on a battery replacement at some point could understandably keep them from going electric. But a study done in March by Recurrent, a Seattle… [+3800 chars]"
+    },
+    {
+      "source": { "id": null, "name": "PCMag.com" },
+      "author": "Emily Dreibelbis",
+      "title": "How Long do EV Batteries Last? New Research Suggests It's Way Longer Than You Might Think",
+      "description": "An independent analysis of 15,000 EV batteries finds that most don't need to be replaced until they're well over a decade old.\nFor many EV-curious buyers, the fear of spending thousands on a battery replacement at some point could understandably keep them fro…",
+      "url": "https://me.pcmag.com/en/cars-auto/20174/how-long-do-ev-batteries-last-new-research-suggests-its-way-longer-than-you-might-think",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/h/how-long-d/how-long-do-ev-batteries-last-new-research-suggests-its-way_nddr.1200.jpg",
+      "publishedAt": "2023-10-27T19:36:25Z",
+      "content": "For many EV-curious buyers, the fear of spending thousands on a battery replacement at some point could understandably keep them from going electric. But a study done in March by Recurrent, a Seattle… [+3800 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "thestreet.com",
+      "title": "My scariest drive left me thrilled about a future with electric cars",
+      "description": "Colorful Connecticut looked great behind the wheel of this sports car. James Ochoa As the wind flowed through my hair and colorful foliage painted a pretty picture in front of me, one thought was square in my mind while I was behind the wheel of a 637 horsepo…",
+      "url": "https://biztoc.com/x/9e794c47c6f16e02",
+      "urlToImage": "https://c.biztoc.com/p/9e794c47c6f16e02/s.webp",
+      "publishedAt": "2023-10-27T19:22:18Z",
+      "content": "Colorful Connecticut looked great behind the wheel of this sports car.James Ochoa\r\nAs the wind flowed through my hair and colorful foliage painted a pretty picture in front of me, one thought was squ… [+272 chars]"
+    },
+    {
+      "source": { "id": "cbs-news", "name": "CBS News" },
+      "author": null,
+      "title": "A year after Elon Musk bought Twitter, X is struggling, experts say",
+      "description": "Musk walked into Twitter's offices a year ago carrying a bathroom sink. Since then, he's given it a new name and purpose.",
+      "url": "https://www.cbsnews.com/news/elon-musk-twitter-x-one-year-after-acquisition/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/09/08/15f58e44-c3fb-42d3-b550-aef5de858496/thumbnail/1200x630/9ae49f43f8b414c95da46dbdc4076143/elon-musk-paris.jpg?v=5799c2de91a486f8a37c0b0f0daf468a",
+      "publishedAt": "2023-10-27T19:22:00Z",
+      "content": "It's been a year since billionaire Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, and, as its new owner, fired its CEO and other top executives as t… [+6239 chars]"
+    },
+    {
+      "source": { "id": "breitbart-news", "name": "Breitbart News" },
+      "author": "Lucas Nolan, Lucas Nolan",
+      "title": "Toys of the Elite: Google Co-Founder Gets FAA Clearance for His Helium Airship",
+      "description": "The skies of California are set to witness the flight of the latest toy of the Masters of the Universe — Google co-founder Sergey Brin’s Pathfinder 1, a helium-filled airship that recently gained flight clearance from the FAA.",
+      "url": "https://www.breitbart.com/tech/2023/10/27/toys-of-the-elite-google-co-founder-gets-faa-clearance-for-his-helium-airship/",
+      "urlToImage": "https://media.breitbart.com/media/2023/10/Sergey-Brins-airship-640x335.jpg",
+      "publishedAt": "2023-10-27T19:20:39Z",
+      "content": "The skies of California are set to witness the flight of the latest toy of the Masters of the Universe  Google co-founder Sergey Brins Pathfinder 1, a helium-filled airship that recently gained fligh… [+2943 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "forbes.com",
+      "title": "Amazon Stock’s 7% Post-Earnings Rally Makes Jeff Bezos $8 Billion Richer",
+      "description": "Amazon stock had its best day in eight months Friday after its earnings report revealed far greater profits than Wall Street anticipated, making the Seattle-based conglomerate’s centibillionaire founder Jeff Bezos an even wealthier man. Shares of Amazon skyro…",
+      "url": "https://biztoc.com/x/a2368d8158435c4d",
+      "urlToImage": "https://c.biztoc.com/p/a2368d8158435c4d/s.webp",
+      "publishedAt": "2023-10-27T19:08:10Z",
+      "content": "Amazon stock had its best day in eight months Friday after its earnings report revealed far greater profits than Wall Street anticipated, making the Seattle-based conglomerates centibillionaire found… [+282 chars]"
+    },
+    {
+      "source": { "id": null, "name": "9to5google.com" },
+      "author": "Abner Li",
+      "title": "What Google apps are missing from Wear OS?",
+      "description": "Since the addition of Gmail and Google Calendar, I’ve been using my Pixel Watch (2) so much more to triage and take other quick actions, such as marking off completed Tasks. I’m finding that my biggest entry point into the apps are their excellent Tiles. Ther…",
+      "url": "https://9to5google.com/2023/10/27/google-apps-wear-os-missing/",
+      "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2023/10/pixel-watch-2-google-calendar.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-27T19:00:00Z",
+      "content": "Since the addition of Gmail and Google Calendar, Ive been using my Pixel Watch (2) so much more to triage and take other quick actions, such as marking off completed Tasks. Im finding that my biggest… [+3583 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Peter Johnson",
+      "title": "VW delays new Porsche Macan EV platform, cuts jobs as software struggles persist",
+      "description": "The drama at Volkswagen’s Cariad unit continues. VW plans to cut around 2,000 jobs while delaying the (already delayed) new software architecture due to be used in upcoming Porsche and Audi EVs.\n more…\nThe post VW delays new Porsche Macan EV platform, cuts jo…",
+      "url": "https://electrek.co/2023/10/27/vw-delays-porsche-macan-ev-platform-cuts-jobs-amid-software-struggles/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2023/10/Volkswagen-Tesla-EV-software-1.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-27T18:50:45Z",
+      "content": "The drama at Volkswagens Cariad unit continues. VW plans to cut around 2,000 jobs while delaying the (already delayed) new software architecture due to be used in upcoming Porsche and Audi EVs.\r\nAcco… [+3104 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Forbes" },
+      "author": "Derek Saul, Forbes Staff, \n Derek Saul, Forbes Staff\n https://www.forbes.com/sites/dereksaul/",
+      "title": "Amazon Stock’s 7% Post-Earnings Rally Makes Jeff Bezos $8 Billion Richer",
+      "description": "Amazon’s $87 billion surge in market value narrowed the gap between Bezos and the second-richest man, Bernard Arnault, to $23 billion.",
+      "url": "https://www.forbes.com/sites/dereksaul/2023/10/27/amazon-stocks-7-post-earnings-rally-makes-jeff-bezos-8-billion-richer/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653c05f3871887600831b407/0x0.jpg?format=jpg&crop=3500,1969,x0,y23,safe&height=900&width=1600&fit=bounds",
+      "publishedAt": "2023-10-27T18:50:36Z",
+      "content": "Amazon stock had its best day in eight months Friday after its earnings report revealed far greater profits than Wall Street anticipated, making the Seattle-based conglomerates centibillionaire found… [+2481 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "finance.yahoo.com",
+      "title": "Tesla, EV Investors Face a Reckoning",
+      "description": "The electric-vehicle boom that spawned multibillion dollar startups overnight and pushed Tesla Inc.’s value into the stratosphere is starting to flounder just a few years after it began. • None US Military Attacks Two Syrian Facilities It Says Are Linked to I…",
+      "url": "https://biztoc.com/x/cd0746666b3b2839",
+      "urlToImage": "https://c.biztoc.com/p/cd0746666b3b2839/s.webp",
+      "publishedAt": "2023-10-27T18:48:08Z",
+      "content": "The electric-vehicle boom that spawned multibillion dollar startups overnight and pushed Tesla Inc.s value into the stratosphere is starting to flounder just a few years after it began.None US Milita… [+312 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Forbes" },
+      "author": "Expert Panel®, Forbes Councils Member, \n Expert Panel®, Forbes Councils Member\n https://www.forbes.com/sites/forbesagencycouncil/people/expertpanel/",
+      "title": "14 Smart Predictions About The Future Of Advertising On X (Twitter)",
+      "description": "Many brands are reallocating ad dollars away from Twitter and toward other channels as the year’s busiest shopping season approaches.",
+      "url": "https://www.forbes.com/sites/forbesagencycouncil/2023/10/27/14-smart-predictions-about-the-future-of-advertising-on-x-twitter/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/653c02d3a2562d5298fc463d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2023-10-27T18:45:46Z",
+      "content": "getty\r\nIn the past year, a significant number of advertisers concerned about a lack of content moderation and the platforms decreasing levels of effectiveness stopped purchasing ads on X (formerly kn… [+7273 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Investopedia" },
+      "author": "Staff Author",
+      "title": "Ford Shares Tumble Amid Concerns About EV Slowdown and Higher Costs Following UAW Strike",
+      "description": "Ford shares tumbled Friday after third-quarter earnings fell short of estimates amid concerns about costs tied to the transition to electric vehicles and the automaker's tentative agreement with the United Auto Workers union.",
+      "url": "https://www.investopedia.com/ford-shares-tumble-amid-concerns-about-ev-slowdown-and-higher-costs-following-uaw-strike-8383541",
+      "urlToImage": "https://www.investopedia.com/thmb/f3eoTR99hMrCYJFwT68r9IrvwVw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1758408548-0b8c21bbd1334b1da30002a879564c56.jpg",
+      "publishedAt": "2023-10-27T18:44:35Z",
+      "content": "<ul><li>Ford shares tumbled Friday after third-quarter earnings fell short of estimates amid concerns about costs tied to the transition to electric vehicles (EVs) and the tentative United Auto Worke… [+2914 chars]"
+    },
+    {
+      "source": { "id": "the-irish-times", "name": "The Irish Times" },
+      "author": "Ciara O'Brien",
+      "title": "European stocks fall on back of disappointing earnings",
+      "description": "Irish index  ends week slightly higher",
+      "url": "https://www.irishtimes.com/business/markets/2023/10/27/european-stocks-fall-on-back-of-disappointing-earnings/",
+      "urlToImage": "https://www.irishtimes.com/resizer/g_4li1o1Zy-QJ8RSoX-bCHdh7io=/1200x630/filters:format(jpg):quality(70):focal(3239x823:3249x833)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/3UJQO7KKATKOE54YWP2OKVO2UM.jpg",
+      "publishedAt": "2023-10-27T18:34:15Z",
+      "content": "European stocks fell on Friday as disappointing earnings from several companies, including Sanofi, NatWest Group and Moncler, weighed on the region.\r\nThe Irish index of shares ended the week slightly… [+3959 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Bimmerpost.com" },
+      "author": "admin",
+      "title": "Took my G87 M2 Roll Racing at Racemotive!",
+      "description": "Hey guys. I wanted to do a write up to share this experience with you guys. Last year I took my G42 M240i to Racemotive at Pocono Raceway. This year I brought the G87 M2 and I had a complete blast. For those of you who arent familiar, this is a roll race even…",
+      "url": "https://g87.bimmerpost.com/forums/showthread.php?t=2057751",
+      "urlToImage": "https://www.bimmerpost.com/storyimages/48c442f9-fe8d-0b65.jpg",
+      "publishedAt": "2023-10-27T18:17:00Z",
+      "content": "Hey guys. I wanted to do a write up to share this experience with you guys. Last year I took my G42 M240i to Racemotive at Pocono Raceway. This year I brought the G87 M2 and I had a complete blast.Fo… [+1503 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Minneapolis Star Tribune" },
+      "author": "STAN CHOE and DAMIAN J. TROISE",
+      "title": "Stock market today: Wall Street slips to extend weeks of losses",
+      "description": "Wall Street slipping Friday following the latest batch of corporate earnings and some mixed readings on the U.S. economy.",
+      "url": "https://www.startribune.com/stock-market-today-wall-street-slips-to-extend-weeks-of-losses/600315178/",
+      "urlToImage": "https://www.startribune.com/static/img/branding/logos/strib-social-card.png?d=1696606793",
+      "publishedAt": "2023-10-27T18:10:04Z",
+      "content": "NEW YORK Wall Street slipping Friday following the latest batch of corporate earnings and some mixed readings on the U.S. economy.\r\nThe S&amp;P 500 was 0.6% lower in afternoon trading, coming off its… [+5177 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "cnn.com",
+      "title": "BP buys $100 million worth of Tesla chargers",
+      "description": "Oil and gas company BP has agreed to purchase $100 million worth of electric vehicle chargers from Tesla. This marks the first time Tesla has ever sold chargers to another company, according to an announcement from BP. BP will begin installing the chargers ne…",
+      "url": "https://biztoc.com/x/ea4d0956eaa1f38b",
+      "urlToImage": "https://c.biztoc.com/p/ea4d0956eaa1f38b/s.webp",
+      "publishedAt": "2023-10-27T18:06:13Z",
+      "content": "Oil and gas company BP has agreed to purchase $100 million worth of electric vehicle chargers from Tesla. This marks the first time Tesla has ever sold chargers to another company, according to an an… [+267 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Gizmodo.com" },
+      "author": "Kevin Hurler",
+      "title": "Ford, Hertz Pump Brakes on EV Plans, Reports Say",
+      "description": "As the years have ticked on, electric vehicles have become more and more accessible to the general public. However, some companies in the EV business are rethinking their investments in the tech.Read more...",
+      "url": "https://gizmodo.com/ford-hertz-pump-brakes-on-ev-plans-reports-say-1850966586",
+      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/c41b048a3477630459fa47b3db30bfc2.jpg",
+      "publishedAt": "2023-10-27T18:00:00Z",
+      "content": "As the years have ticked on, electric vehicles have become more and more accessible to the general public. However, some companies in the EV business are rethinking their investments in the tech.\r\nHe… [+2377 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Politicalwire.com" },
+      "author": "Taegan Goddard",
+      "title": "Elon Musk’s X Is Sinking",
+      "description": "Washington Post: \"The number of people actively tweeting has dropped by more than 30 percent... and the company — which the entrepreneur behind Tesla and SpaceX has renamed X — is hemorrhaging advertisers and revenue, interviews show.\"",
+      "url": "https://politicalwire.com/2023/10/27/elon-musks-x-is-sinking/",
+      "urlToImage": "https://politicalwire.com/wp-content/uploads/2018/02/PW-podcast-logo.jpg",
+      "publishedAt": "2023-10-27T17:59:12Z",
+      "content": "“There are a lot of blogs and news sites claiming to understand politics, but only a few actually do. Political Wire is one of them.”\r\n Chuck Todd, host of “Meet the Press”\r\n“Concise. Relevant. To th… [+594 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "aol.com",
+      "title": "Why my lawnmower is electric but my car isn’t",
+      "description": "I bought my first battery-powered lawnmower nearly 10 years ago as an experiment. It was a success, and most of the other machines in my garage—trimmer, weed whacker, chain saw, rototiller, leaf blower, snow thrower—are now powered by batteries I recharge fro…",
+      "url": "https://biztoc.com/x/5ea0f020135a0db1",
+      "urlToImage": "https://c.biztoc.com/p/5ea0f020135a0db1/s.webp",
+      "publishedAt": "2023-10-27T17:58:09Z",
+      "content": "I bought my first battery-powered lawnmower nearly 10 years ago as an experiment. It was a success, and most of the other machines in my garagetrimmer, weed whacker, chain saw, rototiller, leaf blowe… [+279 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CoinDesk" },
+      "author": "Krisztian Sandor",
+      "title": "Bitcoin's 14% Weekly Gain Signals 'End of an Era' as Big Tech Dumps, Analyst Says",
+      "description": "Bitcoin's advance this week coupled with gains across all digital asset sectors, highlighting the breadth of the crypto rally.",
+      "url": "https://www.coindesk.com/markets/2023/10/27/bitcoins-14-weekly-gain-signals-end-of-an-era-as-big-tech-dumps-analyst-says/",
+      "urlToImage": "https://www.coindesk.com/resizer/cwziwEN7yJr5ORD55NjeNkUu_pQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/NPTXI6OCTJGR7LBZ7QVY5MVCUA.png",
+      "publishedAt": "2023-10-27T17:54:45Z",
+      "content": "Bitcoin's (BTC) bullish momentum has spread to the broader crypto market this week as all crypto sectors booked gains, CoinDesk data shows.\r\nBTC gained over 14% in a week, recently consolidating at a… [+2349 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Futurism" },
+      "author": "Frank Landymore",
+      "title": "Cruise Pauses All Driverless Operations, Saying It's Taking a \"Hard Look Inwards\"",
+      "description": "Cruise, General Motors' autonomous vehicle division, announced on Thursday that it's \"proactively\" pausing driverless operations of its entire fleet across the United States, just days after California yanked its robotaxi permit due to safety concerns. \"The m…",
+      "url": "https://futurism.com/the-byte/cruise-pauses-driverless-operation",
+      "urlToImage": "https://wp-assets.futurism.com/2023/10/cruise-pauses-driverless-operation.jpg",
+      "publishedAt": "2023-10-27T17:54:12Z",
+      "content": "A huge setback.\r\nPut On Hold\r\nCruise, General Motors' autonomous vehicle division, announced on Thursday that it's \"proactively\" pausing driverless operations of its entire fleet across the United St… [+2823 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "techcrunch.com",
+      "title": "Elon Musk’s Twitter a year later: Everything you need to know",
+      "description": "Elon Musk’s Twitter a year later: Everything you need to know Welcome to Elon Musk’s Twitter (now X), where the rules are made up and the check marks don’t matter. The Tesla and SpaceX CEO first announced his bid to buy Twitter in April 2022, zealously driven…",
+      "url": "https://biztoc.com/x/7f72b420c4cbf6b9",
+      "urlToImage": "https://c.biztoc.com/p/7f72b420c4cbf6b9/s.webp",
+      "publishedAt": "2023-10-27T17:50:08Z",
+      "content": "Elon Musks Twitter a year later: Everything you need to knowWelcome to Elon Musks Twitter (now X), where the rules are made up and the check marks dont matter.The Tesla and SpaceX CEO first announced… [+269 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Electrek" },
+      "author": "Rikka Altland",
+      "title": "Super 73 R electric motorbikes start from $2,700, Greenworks electric snow blower $200 off, more",
+      "description": "When it comes to iconic e-bike designs, there’s no one in the space doing it quite like the folks over at Super73. The company’s signature R electric motorbike stands above just about everything else on the market, and now it’s seeing a rare discount alongsid…",
+      "url": "https://electrek.co/2023/10/27/super-73-r-electric-motorbikes-start-from-2700-greenworks-electric-snow-blower-200-off-more/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2023/08/super73image-micahandsapir.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2023-10-27T17:47:53Z",
+      "content": "When it comes to iconic e-bike designs, theres no one in the space doing it quite like the folks over at Super73. The companys signature R electric motorbike stands above just about everything else o… [+3117 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CleanTechnica" },
+      "author": "Steve Hanley",
+      "title": "Decoding The Chaos In The Market For Electric Cars",
+      "description": "Headwinds for electric cars are increasing as higher interest rates make them less affordable for mainstream buyers.",
+      "url": "https://cleantechnica.com/2023/10/27/decoding-the-chaos-in-the-market-for-electric-cars/",
+      "urlToImage": "https://cleantechnica.com/files/2023/09/EQS-Australia.png",
+      "publishedAt": "2023-10-27T17:15:31Z",
+      "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nThese are troubling times for legacy automakers trying to make the transition to building electric cars. In t… [+8040 chars]"
+    },
+    {
+      "source": { "id": "techcrunch", "name": "TechCrunch" },
+      "author": "Amanda Silberling",
+      "title": "Elon Musk’s Twitter a year later: Everything you need to know",
+      "description": "Welcome to Elon Musk’s Twitter (now X), where the rules are made up and the check marks don’t matter. The Tesla and SpaceX CEO first announced his bid to buy Twitter in April 2022, zealously driven to rid the platform of spam bots and protect free speech; now…",
+      "url": "https://techcrunch.com/2023/10/27/elon-musk-twitter-everything-you-need-to-know/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/04/elon-owns-twitter.jpg?resize=1200,675",
+      "publishedAt": "2023-10-27T17:15:09Z",
+      "content": "Welcome to Elon Musks Twitter (now X), where the rules are made up and the check marks dont matter.\r\nThe Tesla and SpaceX CEO announced his bid to buy Twitter in April 2022, zealously driven to rid t… [+60643 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "thestreet.com",
+      "title": "Former Ford CEO has a blunt warning for the electric vehicle industry",
+      "description": "The strike against Ford (F) - Get Free Report may be over, but the company's electric vehicle woes are far from solved. The entire auto industry, grappling with steadily softening EV demand over cost and existential infrastructure challenges, is beginning to …",
+      "url": "https://biztoc.com/x/293ce38a3417157d",
+      "urlToImage": "https://c.biztoc.com/p/293ce38a3417157d/s.webp",
+      "publishedAt": "2023-10-27T17:11:46Z",
+      "content": "The strike against Ford (F) - Get Free Report may be over, but the company's electric vehicle woes are far from solved. The entire auto industry, grappling with steadily softening EV demand over cost… [+277 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "cnbc.com",
+      "title": "A cautious way to bet on a bounce in one of the broken 'Magnificent Seven' stocks",
+      "description": "The so-called Magnificent Seven group of stocks, which rose together for most of 2023, are starting to break-up this earnings season. The Magnificent Seven constituents (Apple, Microsoft, Meta, Amazon, Alphabet, Nvidia, and Tesla) have been the main performan…",
+      "url": "https://biztoc.com/x/7f238df686d102ae",
+      "urlToImage": "https://c.biztoc.com/p/7f238df686d102ae/og.webp",
+      "publishedAt": "2023-10-27T17:10:19Z",
+      "content": "The so-called Magnificent Seven group of stocks, which rose together for most of 2023, are starting to break-up this earnings season. The Magnificent Seven constituents (Apple, Microsoft, Meta, Amazo… [+273 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Snopes.com" },
+      "author": "Taija PerryCook",
+      "title": "Fact Check: Elon Musk Says 'It's Time To Put Bill Gates in Prison'?",
+      "description": "Elon Musk suggested Bill Gates serve time in prison while speaking at an event titled \"Billionaire Banter: The Future of Tech.\"",
+      "url": "https://www.snopes.com/fact-check/elon-musk-bill-gates-prison/",
+      "urlToImage": "https://mediaproxy.snopes.com/width/1200/https://media.snopes.com/2023/10/musk_says_gates_should_go_to_prison.jpg",
+      "publishedAt": "2023-10-27T17:08:00Z",
+      "content": "On Aug. 27, 2023, SpaceXMania published an article positing that Elon Musk had suggested Bill Gates be put in jail. They claimed that Musk made the jab at Gates while speaking to him directly at an e… [+1336 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CarScoops" },
+      "author": "Andrew Gutman",
+      "title": "Tesla Owner Adds Physical Buttons To His Model Y, Drives Minimalists Crazy | Carscoops",
+      "description": "Tesla Owner Adds Physical Buttons To His Model Y, Drives Minimalists Crazy | Carscoopscarscoops.com",
+      "url": "https://www.carscoops.com/2023/10/tesla-owner-adds-physical-buttons-to-his-model-y-drives-minimalists-crazy/",
+      "urlToImage": "https://www.carscoops.com/wp-content/uploads/2023/10/Tesla-Model-Y-Button-Panel-1.jpg",
+      "publishedAt": "2023-10-27T17:06:44Z",
+      "content": "The button panel integrates surprisingly well with the existing Tesla infotainment system. \r\nTesla’s minimalist design ethos has proven to be extremely popular with most of its customer base, but the… [+2191 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Barron's" },
+      "author": "Al Root",
+      "title": "Tesla Stock Is Rising on Higher EV Prices. Ford Is Helping, Too.",
+      "description": "Electric-vehicle maker Tesla raised prices on one of its Model Y vehicles. Also, Ford is delaying capital spending on EVs.",
+      "url": "https://www.barrons.com/articles/tesla-stock-ev-prices-ford-208f3362",
+      "urlToImage": "https://images.barrons.com/im-58860828/social",
+      "publishedAt": "2023-10-27T17:05:55Z",
+      "content": "Tesla\r\n just raised prices in the U.S., exciting investors. It might get auto executives excited, too.Tesla stock (ticker: TSLA) is up 2.2% in midday trading Friday, while the \r\n S&amp;P 500\r\n and \r\n… [+2472 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "barrons.com",
+      "title": "Tesla Stock Is Rising on Higher EV Prices. Ford Is Helping, Too",
+      "description": "Electric-vehicle maker Tesla raised prices on one of its Model Y vehicles. Also, Ford is delaying capital spending on EVs. #tesla #modely #ford",
+      "url": "https://biztoc.com/x/83357c785a379b4f",
+      "urlToImage": "https://c.biztoc.com/p/83357c785a379b4f/s.webp",
+      "publishedAt": "2023-10-27T17:02:26Z",
+      "content": "Electric-vehicle maker Tesla raised prices on one of its Model Y vehicles. Also, Ford is delaying capital spending on EVs.\r\n#tesla#modely#ford\r\nThis story appeared on barrons.com, ."
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "benzinga.com",
+      "title": "Tesla's Range Claims Questioned Again",
+      "description": "Tesla Inc. is under investigation by the U.S. Department of Justice (DOJ) for potentially exaggerating the range of its electric vehicles (EVs). According to a July 27 report from Reuters, Tesla created a special \"diversion team\" to cancel service appointment…",
+      "url": "https://biztoc.com/x/a5c48a3168e5dbed",
+      "urlToImage": "https://c.biztoc.com/p/a5c48a3168e5dbed/s.webp",
+      "publishedAt": "2023-10-27T17:00:26Z",
+      "content": "Tesla Inc. is under investigation by the U.S. Department of Justice (DOJ) for potentially exaggerating the range of its electric vehicles (EVs).According to a July 27 report from Reuters, Tesla creat… [+280 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CleanTechnica" },
+      "author": "Jennifer Sensiba",
+      "title": "Electrify America To Focus On Reliability & Quality From 2024-26 In California",
+      "description": "In some circles, saying “Electrify America” is a good way to rustle some jimmies. For most people who have actually used the company’s chargers, it’s a mix of blessing and curse. Electrify America vastly improved the charging situation for non-Tesla EVs, but …",
+      "url": "https://cleantechnica.com/2023/10/27/electrify-america-to-focus-on-reliability-quality-from-2024-26-in-california/",
+      "urlToImage": "https://cleantechnica.com/files/2023/05/EA-New-Stations-San-Antonio-2000x1000-1-e1684991662342-800x400.png",
+      "publishedAt": "2023-10-27T16:55:07Z",
+      "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nIn some circles, saying “Electrify America” is a good way to rustle some jimmies.\r\nFor most people who have a… [+6771 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Roanoke Times" },
+      "author": "BARBARA ORTUTAY Associated Press",
+      "title": "Twitter takeover: 1 year later, X struggles with misinformation, advertising and usage decline",
+      "description": "One year ago, billionaire Elon Musk walked into Twitter’s San Francisco headquarters with a white bathroom sink and a grin, fired its CEO and other top executives and began transforming the social media platform into what is now known as X.",
+      "url": "https://roanoke.com/news/nation-world/twitter-takeover-1-year-later-x-struggles-with-misinformation-advertising-and-usage-decline/article_dde32098-8551-52da-960e-fb08dfff58a5.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/8/54/8542b9f8-0531-5a33-b944-5b00620d9f32/653bef58b4f02.image.jpg?crop=1912%2C1004%2C0%2C40&resize=1200%2C630&order=crop%2Cresize",
+      "publishedAt": "2023-10-27T16:54:00Z",
+      "content": "BARBARA ORTUTAY \r\nAssociated Press\r\nSAN FRANCISCO One year ago, billionaire and new owner Elon Musk walked into Twitter's San Francisco headquarters with a white bathroom sink and a grin, fired its C… [+5752 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Marketscreener.com" },
+      "author": null,
+      "title": "Nasdaq jumps over 1% as Amazon, Intel updates lift megacaps",
+      "description": "(marketscreener.com) The Nasdaq outperformed peers on\nFriday as robust updates from Amazon.com and Intel lifted\nbeaten-down megacaps, while investors also drew comfort from\ndata that showed inflation rose largely in line with\nexpectations.\n Amazon.com jumped …",
+      "url": "https://www.marketscreener.com/quote/index/NASDAQ-COMPOSITE-4944/news/Nasdaq-jumps-over-1-as-Amazon-Intel-updates-lift-megacaps-45175172/",
+      "urlToImage": "https://img.zonebourse.com/reuters/2017-01/2017-01-13T214413Z_2_LYNXMPED0C18X_RTROPTP_2_USA-STOCKS.JPG",
+      "publishedAt": "2023-10-27T16:12:38Z",
+      "content": "(For a Reuters live blog on U.S., UK and European stock\r\nmarkets, click or type LIVE/ in a news window.)\r\n* Amazon.com says growth in cloud business stabilizing\r\n* Intel forecast Q4 revenue, margins … [+3684 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Thefly.com" },
+      "author": null,
+      "title": "What You Missed On Wall Street This Morning",
+      "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor…",
+      "url": "https://thefly.com/permalinks/entry.php/id3802393/TSLA;GOOG;GOOGL;MANU;SGEN;GM;STLA;NRDS;EGO;DXCM;JNPR;PTCT;GTLS;AMZN;F;INTC;XOM;CVX;SWK;ENPH;CMG;COF;ABBV;RBLX;BMY;CMCSA;RIVN;TKO-What-You-Missed-On-Wall-Street-This-Morning",
+      "urlToImage": "https://image.thefly.com/catalog/201810/img_66.png",
+      "publishedAt": "2023-10-27T16:12:21Z",
+      "content": "Get caught up quickly on the top news and calls moving stocks with these five Top Five lists. \r\n1. STOCK NEWS: \r\n<ul><li>Amazon (AMZN) reported upbeat Q3 earnings and revenue but provided a conservat… [+3222 chars]"
+    },
+    {
+      "source": { "id": null, "name": "The Week Magazine" },
+      "author": "theweekonlineeditors@futurenet.com (Harold Maass, The Week US)",
+      "title": "'Are mass shootings really like natural disasters?'",
+      "description": "Opinion, comment and editorials of the day",
+      "url": "https://theweek.com/politics/are-mass-shootings-really-like-natural-disasters",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/58MnACsEVmJmErrc6t2EzG-1200-80.jpg",
+      "publishedAt": "2023-10-27T16:11:09Z",
+      "content": "'Treating mass shootings like earthquakes'\r\nPeter Hanink in the Los Angeles Times\r\n\"No one was shocked\" by this week’s mass shooting that killed 18 people in Maine, says Peter Hanink in the Los Angel… [+2427 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Marketscreener.com" },
+      "author": null,
+      "title": "Poorly-received earnings weigh on European stocks",
+      "description": "(marketscreener.com) Stock prices in London closed mixed on Friday, hurt by share price falls for the banking sector, while investors also digested underwhelming earnings elsewhere and a US inflationary reading. \n\nThe FTSE 100 index closed down 63.29 points, …",
+      "url": "https://www.marketscreener.com/quote/index/MSCI-EUROPE-STRD-UHD-125324697/news/Poorly-received-earnings-weigh-on-European-stocks-45175134/",
+      "urlToImage": "https://www.marketscreener.com/images/twitter_MS_fdnoir.png",
+      "publishedAt": "2023-10-27T16:10:07Z",
+      "content": "(Alliance News) - Stock prices in London closed mixed on Friday, hurt by share price falls for the banking sector, while investors also digested underwhelming earnings elsewhere and a US inflationary… [+6732 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Biztoc.com" },
+      "author": "cnbc.com",
+      "title": "Elon Musk wants your 'entire financial life' on X: Report",
+      "description": "Elon Musk, CEO of SpaceX and Tesla and owner of X, formerly Twitter, attends a U.S. Senate bipartisan Artificial Intelligence (AI) Insight Forum at the U.S. Capitol in Washington, D.C., on Sept. 13, 2023. X owner Elon Musk is attempting to create a future in …",
+      "url": "https://biztoc.com/x/142f7e2ad5053755",
+      "urlToImage": "https://c.biztoc.com/p/142f7e2ad5053755/og.webp",
+      "publishedAt": "2023-10-27T16:00:09Z",
+      "content": "Elon Musk, CEO of SpaceX and Tesla and owner of X, formerly Twitter, attends a U.S. Senate bipartisan Artificial Intelligence (AI) Insight Forum at the U.S. Capitol in Washington, D.C., on Sept. 13, … [+279 chars]"
+    },
+    {
+      "source": { "id": null, "name": "ETF Daily News" },
+      "author": "MarketBeat News",
+      "title": "Avidian Wealth Solutions LLC Sells 4,561 Shares of Tesla, Inc. (NASDAQ:TSLA)",
+      "description": "Avidian Wealth Solutions LLC reduced its position in shares of Tesla, Inc. (NASDAQ:TSLA – Free Report) by 43.9% in the second quarter, according to its most recent filing with the Securities & Exchange Commission. The fund owned 5,840 shares of the electric v…",
+      "url": "https://www.etfdailynews.com/2023/10/27/avidian-wealth-solutions-llc-sells-4561-shares-of-tesla-inc-nasdaqtsla/",
+      "urlToImage": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/tesla-inc-logo.png?v=20221020135629&w=240&h=240&zc=2",
+      "publishedAt": "2023-10-27T15:56:41Z",
+      "content": "Avidian Wealth Solutions LLC reduced its position in shares of Tesla, Inc. (NASDAQ:TSLA – Free Report) by 43.9% in the second quarter, according to its most recent filing with the Securities &amp; Ex… [+6128 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CleanTechnica" },
+      "author": "Jennifer Sensiba",
+      "title": "A Refreshed Bolt Is Exactly What GM Needs Right Now",
+      "description": "In GM’s recent Q3 earnings call, CEO Mary Barra revealed some interesting new details about the return of the Chevy Bolt. Based on what she said and some of the recent headwinds the EV market has been facing, it seems pretty clear that a new Bolt is exactly w…",
+      "url": "https://cleantechnica.com/2023/10/27/a-refreshed-bolt-is-exactly-what-gm-needs-right-now/",
+      "urlToImage": "https://cleantechnica.com/files/2023/08/Bolt-EUV-On-Rocky-Steep-Trail-2000x1000-1.png",
+      "publishedAt": "2023-10-27T15:55:02Z",
+      "content": "Sign up for daily news updates from CleanTechnica on email. Or follow us on Google News!\r\nIn GM’s recent Q3 earnings call, CEO Mary Barra revealed some interesting new details about the return of the… [+6735 chars]"
+    }
+  ]
 }

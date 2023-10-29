@@ -1,23 +1,61 @@
-import newsImg from "../../images/news.png";
+import { useState, useEffect } from "react";
 
 export default function ShowNews() {
+  const [news, setNews] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+
+  useEffect(() => {
+    async function fetchNews() {
+      await fetch(
+        "https://newsapi.org/v2/everything?q=tesla&from=2023-09-29&sortBy=publishedAt&language=en&apiKey=b06a318c9f8e4d97899ae0796931a130"
+      )
+        .then((response) => response.json())
+        .then((data) => setNews(data.articles[0]))
+        .catch((error) => console.error(error));
+    }
+    fetchNews();
+  }, []);
+
+  
+  useEffect(() => {
+    const todaysDate = new Date();
+    let year = todaysDate.getFullYear();
+    let month = todaysDate.getMonth();
+    let date = todaysDate.getDate();
+
+    if (month < 10) month = "0" + month;
+    if (date < 10) date = "0" + date;
+
+    const dateFormat = date + "-" + month + "-" + year;
+    setDate(dateFormat);
+  }, []);
+
+  useEffect(() => {
+    const date = new Date();
+    let hours = date.getHours();
+    let ampm = hours >= 12 ? "PM" : "AM";
+    hours = hours % 12;
+    hours = hours ? hours : "12";
+    let minutes = date.getMinutes();
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+
+    const timeFormat = hours + ":" + minutes + " " + ampm;
+    setTime(timeFormat);
+  }, []);
+
   return (
     <>
       <div className="news_container">
-        <img src={newsImg} alt="news" className="newsImg" />
+        <img src={news.urlToImage} alt="news" className="newsImg" />
         <div className="news_heading">
-          <h2>Want to climb Mount Everest?</h2>
+          <h2>{news.title}</h2>
           <div className="date_time_news_wrapper">
-            <p className="news_date">2-20-23</p>
-            <p>07:35 PM</p>
+            <p className="news_date">{date}</p>
+            <p>{time}</p>
           </div>
         </div>
-        <p className="news_para">
-          sit amet consectetur adipisicing elit. Aut omnis magnam eligendi
-          laudantium dolorem. Molestiae eveniet enim fugiat ratione vero,
-          aliquam error nobis illum architecto reiciendis eum beatae dicta sit
-          commodi temporibus! Ipsa, dolor! sit amet 
-        </p>
+        <p className="news_para">{news.description}</p>
       </div>
     </>
   );
