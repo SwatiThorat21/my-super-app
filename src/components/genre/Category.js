@@ -71,7 +71,7 @@ export default function Category() {
       setError(true);
     } else{
       setError(false);
-      localStorage.setItem("genre", JSON.stringify([...categories]));
+      localStorage.setItem("genres", JSON.stringify([...categories]));
       navigate('/Browse')
     }
   }
@@ -81,7 +81,7 @@ export default function Category() {
       <div className="genre_container">
         <div className="left_genre">
           <h2 className="title">Super app</h2>
-          <div className="heading_wrapper">
+          <div className="genre_selection_heading">
             <p>Choose your</p>
             <p>entertainment</p>
             <p>category</p>

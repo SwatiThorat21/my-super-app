@@ -3,7 +3,7 @@ import "./browse.css";
 
 export default function ShowProfile() {
   let userInfo = JSON.parse(localStorage.getItem("formdata"));
-  let genre = JSON.parse(localStorage.getItem("genre"));
+  let genre = JSON.parse(localStorage.getItem("genres"));
   return (
     <>
       <div className="profile_container">
