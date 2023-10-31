@@ -1,7 +1,7 @@
 import profileImg from "../../images/profileImg.png";
 import "./browse.css";
 
-export default function showProfile() {
+export default function ShowProfile() {
   let userInfo = JSON.parse(localStorage.getItem("formdata"));
   let genre = JSON.parse(localStorage.getItem("genre"));
   return (

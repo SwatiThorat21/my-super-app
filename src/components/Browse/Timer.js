@@ -10,6 +10,7 @@ export default function ShowTimer() {
   const [sec, setSec] = useState("00");
   const [playing, setPlaying] = useState(false);
   const [audio] = useState(new Audio(timerSound));
+  const [restartKey, setRestartKey] = useState(0);
 
   useEffect(() => {
     if (playing) {
@@ -62,6 +63,7 @@ export default function ShowTimer() {
     setMin("00");
     setSec("00");
     setPlaying(false);
+    setRestartKey((key) => key + 1);
   }
 
   return (
@@ -78,6 +80,7 @@ export default function ShowTimer() {
             trailColor="#191E39"
             strokeWidth={8}
             trailStrokeWidth={18}
+            key={restartKey}
           >
             {({ remainingTime }) => toHoursMin(remainingTime)}
           </CountdownCircleTimer>
@@ -136,12 +139,12 @@ export default function ShowTimer() {
             </div>
             {playing ? (
               <button className="startTimer_btn" onClick={handleStop}>
-              Stop
-            </button>
+                Stop
+              </button>
             ) : (
               <button className="startTimer_btn" onClick={handlePlaying}>
-              Start
-            </button>
+                Start
+              </button>
             )}
           </div>
         </div>
