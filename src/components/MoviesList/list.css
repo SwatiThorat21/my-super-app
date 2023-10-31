@@ -1,0 +1,48 @@
+.list_container {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  height: 100vh;
+}
+.heading_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.heading_wrapper img {
+  width: 65px;
+}
+.heading_wrapper h2 {
+  font-family: "Single Day", cursive;
+  color: #72db73;
+  font-size: 34px;
+}
+.genre_wrapper{
+    padding: 1.5rem;
+}
+.genre_wrapper h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.genre_list{
+    margin-bottom: 15px;
+}
+.genre_list p{
+    color: #878787;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.movieImg{
+    width: 250px;
+}
+.movieImg_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.list_wrapper{
+    overflow-y: scroll;
+    height: 70vh;
+}
