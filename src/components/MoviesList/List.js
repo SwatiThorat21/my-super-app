@@ -4,12 +4,12 @@ import "./list.css";
 export default function GetList({ genre }) {
   const [movies, setMovies] = useState([]);
 
-  let img_url = "https://image.tmdb.org/t/p/w500";
+  let img_url = "https://image.tmdb.org/t/p/w200";
 
   useEffect(() => {
     async function fetchMovies() {
       await fetch(`
-        https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&with_genres=${genre}&api_key=34a049d3fb8f5b726b30b0eaca49c7db`)
+        https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&with_genres=${genre.name}&year=2022&api_key=34a049d3fb8f5b726b30b0eaca49c7db`)
         .then((res) => res.json())
         .then((data) => setMovies(data.results.splice(0, 4)))
         .catch((err) => console.log(err));
@@ -25,7 +25,7 @@ export default function GetList({ genre }) {
           <div className="movieImg_wrapper">
             {movies.map((movie, index) => {
               return (
-                <div key={index}>
+                <div key={index} className="movie_img">
                   <img
                     src={`${img_url}${movie.poster_path}`}
                     alt="movieImg"
