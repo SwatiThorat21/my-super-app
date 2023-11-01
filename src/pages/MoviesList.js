@@ -3,6 +3,8 @@ import profileImg from "../images/pp.png";
 import "../components/MoviesList/list.css";
 
 export default function GetMoviesList() {
+  const genres = JSON.parse(localStorage.getItem("genres"));
+
   return (
     <>
       <div className="list_container">
@@ -12,7 +14,9 @@ export default function GetMoviesList() {
         </div>
         <div className="genre_wrapper">
           <h2>Entertainment according to your choice</h2>
-          <List />
+          {genres.map((genre, index)=>(
+            <List genre={genre} key={index}/>
+          ))}
         </div>
       </div>
     </>

@@ -1,51 +1,40 @@
 import { useEffect, useState } from "react";
-import dummyImg from "../../images/dummyImg.png";
 import "./list.css";
 
-export default function GetList() {
-  const genres = JSON.parse(localStorage.getItem("genres"));
-
+export default function GetList({ genre }) {
   const [movies, setMovies] = useState([]);
 
+  let img_url = "https://image.tmdb.org/t/p/w500";
+
   useEffect(() => {
-    const options = {
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "2ef1d30f45msh6b439ca06c2e7fep11c37cjsn11b70d669752",
-        "X-RapidAPI-Host": "moviesdatabase.p.rapidapi.com",
-      },
-    };
-    genres.forEach((genre) => {
-      async function fetchMovies() {
-        await fetch(
-          `https://moviesdatabase.p.rapidapi.com/titles?genre=${genre.name}`,
-          options
-        )
-          .then((res) => res.json())
-          .then((data) => console.log(setMovies(data.results.splice(4, 4))))
-          .catch((err) => console.log(err));
-      }
-      fetchMovies();
-    });
-  }, [genres]);
+    async function fetchMovies() {
+      await fetch(`
+        https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&with_genres=${genre}&api_key=34a049d3fb8f5b726b30b0eaca49c7db`)
+        .then((res) => res.json())
+        .then((data) => setMovies(data.results.splice(0, 4)))
+        .catch((err) => console.log(err));
+    }
+    fetchMovies();
+  }, [genre]);
 
   return (
     <>
       <div className="list_wrapper">
         <div className="genre_list">
-          {genres.map((genre) => (
-            <p>{genre.name}</p>
-          ))}
-          {movies.map((movie) => {
-            return [
-              <div className="movieImg_wrapper">
-                <img src={movie.results.primaryImage.url} alt="movieImg" className="movieImg" />
-                <img src={dummyImg} alt="movieImg" className="movieImg" />
-                <img src={dummyImg} alt="movieImg" className="movieImg" />
-                <img src={dummyImg} alt="movieImg" className="movieImg" />
-              </div>,
-            ];
-          })}
+          <p>{genre.name}</p>
+          <div className="movieImg_wrapper">
+            {movies.map((movie, index) => {
+              return (
+                <div key={index}>
+                  <img
+                    src={`${img_url}${movie.poster_path}`}
+                    alt="movieImg"
+                    className="movieImg"
+                  />
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </>

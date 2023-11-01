@@ -8,7 +8,7 @@ export default function ShowNews() {
   useEffect(() => {
     async function fetchNews() {
       await fetch(
-        "https://newsapi.org/v2/everything?q=tesla&from=2023-09-30&sortBy=publishedAt&apiKey=b06a318c9f8e4d97899ae0796931a130"
+        "https://newsapi.org/v2/everything?q=tesla&from=2023-10-01&sortBy=publishedAt&apiKey=b06a318c9f8e4d97899ae0796931a130"
       )
         .then((response) => response.json())
         .then((data) => setNews(data.articles[0]))
