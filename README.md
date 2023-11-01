@@ -3,9 +3,10 @@ Super App built using React that creates user account and display user data with
 Deployed here: https://visionary-marshmallow-39d9fe.netlify.app/
 
 ## Run the app locally
-
-<ul>npm install</ul>
-<ul>npm start</ul>
+<ul>
+    <li>npm install</li>
+    <li>npm start</li>
+</ul>
 
 
 
